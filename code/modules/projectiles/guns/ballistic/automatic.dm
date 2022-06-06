@@ -566,7 +566,7 @@
 
 
 //Police rifle			Keywords: POLICE, 5.56mm, Semi-auto, 30 (10-50) round magazine
-/obj/item/gun/ballistic/automatic/marksman/policerifle
+/obj/item/gun/ballistic/automatic/marksman/police
 	name = "police rifle"
 	desc = "A 5.56x45mm rifle built off the AR platform, popular with police departments."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
