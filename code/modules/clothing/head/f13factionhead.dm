@@ -47,8 +47,41 @@
 	. = ..()
 	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_HEAD))*/
 
+//Police
 
-//Old World Army clothing
+obj/item/clothing/head/f13/police/officer
+	name = "police officer's cap"
+	desc = "A dark navy peaked cap, worn by police officers."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_officer"
+	item_state = "police_officer"
+
+/obj/item/clothing/head/f13/police/sergeant
+	name = "police campaign hat"
+	desc = "A dark navy campaign hat, worn by police sergeants."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_sergeant"
+	item_state = "police_sergeant"
+
+/obj/item/clothing/head/f13/police/lieutenant
+	name = "police lieutenant's cap"
+	desc = "A dark navy peaked cap, worn by police lieutenants."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_lieutenant"
+	item_state = "police_lieutenant"
+
+/obj/item/clothing/head/f13/police/chief
+	name = "police chief's cap"
+	desc = "A dark navy peaked cap, worn by police chiefs."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_chief"
+	item_state = "police_chief"
+
+//Army clothing
 /obj/item/clothing/head/armycap
 	name = "US Army field cap"
 	desc = "Standard issue US Army field cap."
@@ -66,6 +99,8 @@
 	icon_state = "army_officer"
 	item_state = "army_officer"
 	dynamic_hair_suffix = "+generic"
+
+/*
 
 /obj/item/clothing/head/armycap/nationalguard
 	name = "National Guard field cap"
@@ -86,6 +121,8 @@
 	item_state = "army_officer"
 	armor = list("tier" = 3, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 	dynamic_hair_suffix = "+generic"
+
+*/
 
 //Raider
 /obj/item/clothing/head/helmet/f13/raider

@@ -249,7 +249,7 @@
 	init_mag_type = /obj/item/ammo_box/magazine/m10mm_adv/ext
 	fire_delay = 3.75
 	can_attachments = TRUE
-	suppressor_state = "10mm_suppressor" //activate if sprited 
+	suppressor_state = "10mm_suppressor" //activate if sprited
 	suppressor_x_offset = 30
 	suppressor_y_offset = 16
 	actions_types = list(/datum/action/item_action/toggle_firemode)
@@ -565,14 +565,14 @@
 	suppressor_y_offset = 28
 
 
-//Police rifle			Keywords: OASIS, 5.56mm, Semi-auto, 30 (10-50) round magazine
+//Police rifle			Keywords: POLICE, 5.56mm, Semi-auto, 30 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/marksman/policerifle
-	name = "Police  rifle"
-	desc = "This old pre-war rifle made for law enforcement has been passed down generations in the Oasis Police Department, carefully repaired and rebuilt whenever damaged. Dried and crumbling polymers have been replaced with wood and reinforcing strips of leather, the black finish worn down a century ago, but it still works, as good as ever."
+	name = "police rifle"
+	desc = "A 5.56x45mm rifle built off the AR platform, popular with police departments."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
-	icon_state = "rifle-police"
+	icon_state = "m16a1"
 	item_state = "assault_carbine"
 	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/extended
 	fire_delay = 4.2
@@ -943,7 +943,7 @@
 //Assault Carbine				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, Flashlight
 /obj/item/gun/ballistic/automatic/assault_carbine
 	name = "assault carbine"
-	desc = "The U.S. army carbine version of the R91, made by Colt and issued to special forces."
+	desc = "A 5.56x45mm rifle built off the AR platform, features a shorter stock and barrel, telescoping stock, and a general air of special forces coolness."
 	icon_state = "assault_carbine"
 	item_state = "assault_carbine"
 	slot_flags = 0

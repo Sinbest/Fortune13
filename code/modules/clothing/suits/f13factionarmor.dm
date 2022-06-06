@@ -1,6 +1,32 @@
 //FOR BOTH SUITS AND ARMORS BELONGING TO FACTIONS
 //PLEASE PUT CUSTOM ARMORS IN f13armor.dm. All power armors are found in f13armor.dm.
 
+//Police
+
+/obj/item/clothing/suit/f13/police
+	name = "police officer's jacket"
+	desc = "A simple dark navy jacket, worn by police."
+	icon = 'icons/fallout/clothing/suits_cosmetic.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_cosmetic.dmi'
+	icon_state = "police_officer"
+	item_state = "police_officer"
+
+/obj/item/clothing/suit/f13/police/lieutenant
+	name = "police lieutenant's jacket"
+	desc = " A simple dark navy jacket, worn by police."
+	icon = 'icons/fallout/clothing/suits_cosmetic.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_cosmetic.dmi'
+	icon_state = "police_lieutenant"
+	item_state = "police_lieutenant"
+
+/obj/item/clothing/suit/f13/police/chief
+	name = "police chief's jacket"
+	desc = "A simple dark navy jacket, worn by police."
+	icon = 'icons/fallout/clothing/suits_cosmetic.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_cosmetic.dmi'
+	icon_state = "police_chief"
+	item_state = "police_chief"
+
 //Raider
 /obj/item/clothing/suit/armor/f13/raider
 	name = "base raider armor"

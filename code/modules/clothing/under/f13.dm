@@ -38,23 +38,59 @@
 	icon_state = "uniform_enclave_intel"
 	item_state = "uniform_enclave_intel"
 
-//Old World Army clothing
+//Law Enforcement
+
+/obj/item/clothing/under/f13/police/officer
+	name = "police officer's uniform"
+	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon_state = "police_officer"
+	item_state = "police_officer"
+
+/obj/item/clothing/under/f13/police/lieutenant
+	name = "police lieutenant's uniform"
+	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon_state = "police_lieutenant"
+	item_state = "police_lieutenant"
+
+/obj/item/clothing/under/f13/police/chief
+	name = "police chief's uniform"
+	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon_state = "police_chief"
+	item_state = "police_chief"
+
+/obj/item/clothing/under/f13/police/formal
+	name = "police formal uniform"
+	desc = "A formal police uniform."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon_state = "police_formal"
+	item_state = "police_formal"
+
+//Army clothing
 
 /obj/item/clothing/under/f13/army
-	name = "US Army enlisted uniform"
-	desc = "Standard issue uniform for the pre-war army."
+	name = "US Army combat uniform"
+	desc = "Standard issue uniform for the army."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
 	icon_state = "army_uniform"
 	item_state = "army_uniform"
 
 /obj/item/clothing/under/f13/army/officer
-	name = "US Army officer's uniform"
-	desc = "Standard issue uniform for the pre-war army."
+	name = "US Army officer's combat uniform"
+	desc = "Standard issue uniform for the army."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
 	icon_state = "army_officer"
 	item_state = "army_officer"
+
+/*
 
 /obj/item/clothing/under/f13/army/nationalguard
 	name = "National Guard uniform"
@@ -71,6 +107,8 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
 	icon_state = "army_officer"
 	item_state = "army_officer"
+
+*/
 
 /obj/item/clothing/under/f13/army/utility
 	name = "US Army utility overall"

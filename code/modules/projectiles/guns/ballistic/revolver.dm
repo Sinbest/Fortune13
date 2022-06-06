@@ -7,7 +7,7 @@
 	desc = "should not exist."
 	icon_state = "revolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder
-	fire_delay = 5	
+	fire_delay = 5
 	spread = 1
 	force = 12 // Pistol whip
 	casing_ejector = FALSE
@@ -139,17 +139,6 @@
 	obj_flags = UNIQUE_RENAME
 	var/list/safe_calibers
 
-
-//Police revolver					Keywords: .38, Double action, 6 rounds cylinder
-/obj/item/gun/ballistic/revolver/police
-	name = ".38 police revolver"
-	desc = "Pre-war double action police revolver in .38 calibre."
-	icon_state = "police"
-	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38
-	w_class = WEIGHT_CLASS_SMALL
-	fire_sound = 'sound/f13weapons/policepistol.ogg'
-
-
 /////////////////////
 // 10 MM REVOLVERS //
 /////////////////////
@@ -186,7 +175,7 @@
 // .357 REVOLVERS //
 ////////////////////
 
-//357 Magnum					Keywords: .357, Double action, 6 rounds cylinder 
+//357 Magnum					Keywords: .357, Double action, 6 rounds cylinder
 /obj/item/gun/ballistic/revolver/colt357
 	name = "\improper .357 magnum revolver"
 	desc = "A no-nonsense revolver, more than likely made in some crude workshop in one of the more prosperous frontier towns."
@@ -206,7 +195,14 @@
 	fire_delay = 4
 	block_chance = 20
 
-
+//Police revolver					Keywords: .357, Double action, 6 rounds cylinder
+/obj/item/gun/ballistic/revolver/police
+	name = "police revolver"
+	desc = "Pre-war double action police revolver in .357 magnum."
+	icon_state = "police"
+	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev357
+	w_class = WEIGHT_CLASS_SMALL
+	fire_sound = 'sound/f13weapons/policepistol.ogg'
 
 ///////////////////
 // .44 REVOLVERS //
