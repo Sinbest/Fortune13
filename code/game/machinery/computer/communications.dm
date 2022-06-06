@@ -130,7 +130,7 @@
 			if(authenticated==2)
 				playsound(src, 'sound/machines/terminal_prompt.ogg', 50, FALSE)
 				make_announcement(usr)
-
+/*
 		if("crossserver")
 			if(authenticated==2)
 				var/dest = href_list["cross_dest"]
@@ -152,7 +152,7 @@
 				message_admins("[ADMIN_LOOKUPFLW(usr)] has sent a message to the other server.")
 				deadchat_broadcast("<span class='deadsay bold'>[usr.real_name] has sent an outgoing message to the other station(s).</span>", usr)
 				CM.lastTimeUsed = world.time
-
+*/
 		if("purchase_menu")
 			state = STATE_PURCHASE
 
@@ -204,7 +204,7 @@
 		if("cancelshuttle2")
 			if(authenticated)
 				if(SSshuttle.endvote_passed) //Citadel Edit - endvote passing = no recalls
-					say("Warning: Train recalls have been blocked by Vault-Tec due to ongoing evacuation procedures.")
+					say("Warning: Train recalls have been blocked by the Government due to ongoing evacuation procedures.")
 				else
 					SSshuttle.cancelEvac(usr)
 			state = STATE_DEFAULT
@@ -286,45 +286,45 @@
 			stat_msg2 = reject_bad_text(input("Line 2", "Enter Message Text", stat_msg2) as text|null, 40)
 			updateDialog()
 
-		// OMG CENTCOM LETTERHEAD
+		//Send a message to the US government
 		if("MessageCentCom")
 			if(authenticated)
 				if(!checkCCcooldown())
 					to_chat(usr, "<span class='warning'>Arrays recycling. Please stand by.</span>")
 					return
-				var/input = stripped_input(usr, "Please choose a message to transmit to CentCom via quantum entanglement.  Please be aware that this process is very expensive, and abuse will lead to... termination.  Transmission does not guarantee a response.", "Send a message to CentCom.", "")
+				var/input = stripped_input(usr, "Please choose a message to transmit to the Government.  Please be aware that the Government's time is very valuable and improper use of this system may lead to punishment.  Transmission does not guarantee a response.", "Send a message to the Government.", "")
 				if(!input || !(usr in view(1,src)) || !checkCCcooldown())
 					return
 				playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
 				CentCom_announce(input, usr)
-				to_chat(usr, "<span class='notice'>Message transmitted to Central Command.</span>")
+				to_chat(usr, "<span class='notice'>Message transmitted to the Government.</span>")
 				for(var/client/X in GLOB.admins)
 					if(X.prefs.toggles & SOUND_ADMINHELP)
 						SEND_SOUND(X, sound('sound/effects/printer.ogg'))
 					window_flash(X, ignorepref = FALSE)
-				usr.log_talk(input, LOG_SAY, tag="CentCom announcement")
-				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.real_name]</span> has messaged CentCom, \"[input]\" at <span class='name'>[get_area_name(usr, TRUE)]</span>.</span>", usr)
+				usr.log_talk(input, LOG_SAY, tag="Government announcement")
+				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.real_name]</span> has messaged the Government, \"[input]\" at <span class='name'>[get_area_name(usr, TRUE)]</span>.</span>", usr)
 				CM.lastTimeUsed = world.time
 
-		// OMG SYNDICATE ...LETTERHEAD
+		//Send a message to the chinese governemnt
 		if("MessageSyndicate")
 			if((authenticated) && (obj_flags & EMAGGED))
 				if(!checkCCcooldown())
 					to_chat(usr, "<span class='warning'>Arrays recycling. Please stand by.</span>")
 					playsound(src, 'sound/machines/terminal_prompt_deny.ogg', 50, FALSE)
 					return
-				var/input = stripped_input(usr, "Please choose a message to transmit to \[ABNORMAL ROUTING COORDINATES\] via quantum entanglement.  Please be aware that this process is very expensive, and abuse will lead to... termination. Transmission does not guarantee a response.", "Send a message to /??????/.", "")
+				var/input = stripped_input(usr, "Please choose a message to transmit to \[ABNORMAL ROUTING COORDINATES\].  Please be aware that the /??????/'s time is very valuable and improper use of this system may lead to punishment. Transmission does not guarantee a response.", "Send a message to /??????/.", "")
 				if(!input || !(usr in view(1,src)) || !checkCCcooldown())
 					return
 				playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
 				Syndicate_announce(input, usr)
-				to_chat(usr, "<span class='danger'>SYSERR @l(19833)of(transmit.dm): !@$ MESSAGE TRANSMITTED TO SYNDICATE COMMAND.</span>")
+				to_chat(usr, "<span class='danger'>SYSERR @l(19833)of(transmit.dm): !@$ MESSAGE TRANSMITTED TO PLA COMMAND.</span>")
 				for(var/client/X in GLOB.admins)
 					if(X.prefs.toggles & SOUND_ADMINHELP)
 						SEND_SOUND(X, sound('sound/effects/printer.ogg'))
 					window_flash(X, ignorepref = FALSE)
-				usr.log_talk(input, LOG_SAY, tag="Syndicate announcement")
-				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.real_name]</span> has messaged the Syndicate, \"[input]\" at <span class='name'>[get_area_name(usr, TRUE)]</span>.</span>", usr)
+				usr.log_talk(input, LOG_SAY, tag="Chinese announcement")
+				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.real_name]</span> has messaged the Chinese, \"[input]\" at <span class='name'>[get_area_name(usr, TRUE)]</span>.</span>", usr)
 				CM.lastTimeUsed = world.time
 
 		if("RestoreBackup")
@@ -333,6 +333,7 @@
 			obj_flags &= ~EMAGGED
 			updateDialog()
 
+/*
 		if("nukerequest") //When there's no other way
 			if(authenticated==2)
 				if(!checkCCcooldown())
@@ -346,7 +347,7 @@
 				usr.log_message("has requested the nuclear codes from CentCom with reason \"[input]\"", LOG_SAY)
 				priority_announce("The codes for the on-station nuclear self-destruct have been requested by [usr]. Confirmation or denial of this request will be sent shortly.", "Nuclear Self Destruct Codes Requested","commandreport")
 				CM.lastTimeUsed = world.time
-
+*/
 
 		// AI interface
 		if("ai-main")

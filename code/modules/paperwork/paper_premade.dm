@@ -247,11 +247,21 @@
 	Aquire Xander root,broc flowers,barrel cactii and bottles of Sarsaparilla.
 	<br>
 	Step 2
-	<br> 
-	Ferment Xander root,barrel cactii and broc flowers seperate. 
+	<br>
+	Ferment Xander root,barrel cactii and broc flowers seperate.
 	<br>
 	<b>Step 3
 	<br>
 	Mix the fermented results of Xander root, barrel cactii,broc flowers and Sarsaparilla together in a large glass beaker.</b>
 	<br>
 	Bitter drink should be the result which can then be bottled by crafting. It is a very potent drink, so more than two should not be consumed."}
+
+////// Tranquilityville
+
+/obj/item/paper/fluff/tranquilityville/annoucement_system
+	name = "About the City Annoucement System"
+	info = "Mayor, the City Annoucement System (CAS) should be operational now, using the communication terminal underneath this note you can send emergency annoucements to the townsfolk, key word being EMERGENCY, you should not use this system for frivolous reasons, as it may reduce your chances of re-election as well as damage windows."
+
+obj/item/paper/fluff/tranquilityville/civil_defence/admin
+	name = "Welcome Administrator"
+	info = "Welcome to Tranquilityville Administrator, while this office space may not be lavish, it may be"
