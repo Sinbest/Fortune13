@@ -1,5 +1,5 @@
 /obj/structure/chair/sofa
-	name = "old ratty sofa"
+	name = "sofa"
 	icon_state = "sofamiddle"
 	icon = 'icons/obj/sofa.dmi'
 	buildstackamount = 1

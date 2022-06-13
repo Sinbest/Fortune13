@@ -333,7 +333,7 @@ obj/item/melee/onehanded/knife/switchblade
 	icon_state = "flag-ncr"
 	item_state = "flag-ncr"
 	w_class = WEIGHT_CLASS_BULKY
-	slot_flags = null 
+	slot_flags = null
 	force = 26
 	block_chance = 30
 	attack_verb = list("smacked", "thwacked", "democratized", "freedomed")
@@ -475,7 +475,7 @@ obj/item/melee/onehanded/knife/switchblade
 			return DISCARD_LAST_ACTION
 
 // Military baton - Desired effect instant disarm on hit on NCR when used by MP, could be sorted with a interesting martial art maybe.
-/obj/item/melee/classic_baton/militarypolice
+/obj/item/melee/classic_baton/military_police
 	name = "military baton"
 	desc = "Sturdy stick painted white, used by military police to get unruly troopers into line."
 	icon = 'icons/fallout/objects/melee/melee.dmi'
@@ -484,6 +484,15 @@ obj/item/melee/onehanded/knife/switchblade
 	icon_state = "batonmp"
 	item_state = "batonmp"
 
+// Baton but coloured black
+/obj/item/melee/classic_baton/police
+	name = "police baton"
+	desc = "A black plastic nightstick, used by police officers to detain rowdy law-breakers."
+	icon = 'icons/fallout/objects/melee/melee.dmi'
+	lefthand_file = 'icons/fallout/onmob/weapons/melee1h_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/melee1h_righthand.dmi'
+	icon_state = "batonpolice"
+	item_state = "batonpolice"
 
 // Telescopic baton
 /obj/item/melee/classic_baton/telescopic
@@ -571,7 +580,7 @@ obj/item/melee/onehanded/knife/switchblade
 // GLOVE WEAPONS //
 ///////////////////		-faster attack speed
 
- 
+
 /obj/item/melee/unarmed
 	name = "glove weapon template"
 	desc = "should not be here"

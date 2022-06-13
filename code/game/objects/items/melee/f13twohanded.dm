@@ -99,7 +99,7 @@
 ////////////		- Reach
 
 // Metal Spear		Keywords: Damage 10/30, Reach
-/obj/item/twohanded/spear 
+/obj/item/twohanded/spear
 	name = "spear"
 	desc = "A simple spear with a metal head and wooden shaft."
 	icon_state = "spear-metal"
@@ -197,7 +197,7 @@
 	update_icon()
 
 
-// Lance		Keywords: LEGION, Damage 25/40, Reach		
+// Lance		Keywords: LEGION, Damage 25/40, Reach
 /obj/item/twohanded/spear/lance
 	name = "legion lance"
 	desc = "A long spear made in the Legions war foundries. Useful for fighting tribals and hunting when ammunition is scarce."
@@ -266,7 +266,7 @@
 // Baseball Bat			Keywords: Damage 12/30, Damage bonus Stamina
 /obj/item/twohanded/baseball
 	name = "baseball bat"
-	desc = "There ain't a skull in the league that can withstand a swatter."
+	desc = "A long wooden stick used to play the great american sport of baseball."
 	icon_state = "baseball"
 	icon_prefix = "baseball"
 	force = 12
@@ -290,7 +290,7 @@
 // Spiked Baseball Bat		Keywords: Damage 15/33, Damage bonus Stamina, Sharp
 /obj/item/twohanded/baseball/spiked
 	name = "spiked baseball bat"
-	desc = "There ain't a skull in the league that can withstand a swatter, especially with large nails drilled through the top of it."
+	desc = "A long wooden stick used to play the great american sport of baseball, although probably not anymore because somebody has hammered large nails through the top of it."
 	icon_state = "baseballspike"
 	icon_prefix = "baseballspike"
 	force = 15
@@ -306,7 +306,7 @@
 // Golf Club		Keywords: Damage 15/32, Damage bonus Stamina
 /obj/item/twohanded/baseball/golfclub
 	name = "golf club"
-	desc = "This old and quite heavy 9 iron is bent and battered after many years of use by anyone who found it good enough to break bones and crash skulls."
+	desc = "A long metal stick used to play the most boring sport in the world, golf."
 	icon_state = "golfclub"
 	icon_prefix = "golfclub"
 	attack_verb = list("smashed", "bashed", "fored", "hit", "bludgeoned", "whacked")
@@ -325,7 +325,7 @@
 // Louisville Slugger		Keywords: Damage 15/33, Damage bonus Stamina
 /obj/item/twohanded/baseball/golfclub/louisville
 	name = "Louisville slugger"
-	desc = "Makes a satisfying thwack when hitting people."
+	desc = "A baseball bat made by the Hillerich & Bradsby company."
 	icon_state = "louisville"
 	attack_verb = list("thwacked", "bashed", "slugged", "hit", "bludgeoned", "whacked", "bonked")
 
@@ -348,7 +348,7 @@
 // Sledgehammer			Keywords: Damage 25/45
 /obj/item/twohanded/sledgehammer
 	name = "sledgehammer"
-	desc = "A heavy sledgehammer that lost most of its use besides caving in heads."
+	desc = "A heavy sledgehammer, often used in demolition work."
 	icon_state = "hammer-sledge"
 	icon_prefix = "hammer-sledge"
 	attack_speed = CLICK_CD_MELEE * 1.2
@@ -666,7 +666,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	return(BRUTELOSS)
 
 /*
-CODE ARCHIVE 
+CODE ARCHIVE
 
 CODE FOR POISON EFFECT
 /obj/item/twohanded/spear/ultra/attack(mob/living/M, mob/living/user)

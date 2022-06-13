@@ -3974,8 +3974,6 @@
 /area/indoors/bunker)
 "dPZ" = (
 /obj/structure/closet,
-/obj/item/clothing/head/armycap/nationalguard,
-/obj/item/clothing/under/f13/army/nationalguard,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/indoors/bunker)
 "dQe" = (
@@ -7960,7 +7958,6 @@
 /area/indoors)
 "hwh" = (
 /obj/structure/closet,
-/obj/item/clothing/under/f13/army/nationalguard,
 /obj/item/storage/belt/military,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/indoors/bunker)
@@ -23418,7 +23415,6 @@
 "xtd" = (
 /obj/structure/closet/crate/footlocker,
 /obj/effect/spawner/lootdrop/f13/cash_ncr_low,
-/obj/item/clothing/head/armycap/nationalguard,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/indoors/bunker)
 "xts" = (

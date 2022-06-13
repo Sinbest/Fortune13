@@ -89,17 +89,18 @@ turf/closed/wall/f13/wood/house/update_damage_overlay()
 
 /turf/closed/wall/f13/wood/house/clean
 	icon_state = "house0-clean"
+	desc = "A nice wooden wall for a suburban house."
 
 /turf/closed/wall/f13/wood/house/clean/relative()
 	icon_state = "[icon_type_smooth][junction]-clean"
 
 /turf/closed/wall/f13/wood/interior
 	name = "interior wall"
-	desc = "Interesting, what kind of material they have used - these wallpapers still look good after all the centuries..."
+	desc = "A thin wall made of wood and plaster covered with wallpaper, so weak you could probably punch a hole though it with your fist if you really wanted to."
 	icon = 'icons/fallout/turfs/walls/interior.dmi'
 	icon_state = "interior0"
 	icon_type_smooth = "interior"
-	hardness = 10
+	hardness = 15
 	smooth = SMOOTH_OLD
 	canSmoothWith = list(/turf/closed/wall/f13/wood/interior, /turf/closed/wall)
 

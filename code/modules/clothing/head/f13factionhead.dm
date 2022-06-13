@@ -82,7 +82,7 @@ obj/item/clothing/head/f13/police/officer
 	item_state = "police_chief"
 
 //Army clothing
-/obj/item/clothing/head/armycap
+/obj/item/clothing/head/army
 	name = "US Army field cap"
 	desc = "Standard issue US Army field cap."
 	icon = 'icons/fallout/clothing/hats.dmi'
@@ -91,7 +91,7 @@ obj/item/clothing/head/f13/police/officer
 	item_state = "army_cap"
 	dynamic_hair_suffix = "+generic"
 
-/obj/item/clothing/head/armycap/officer
+/obj/item/clothing/head/army/officer
 	name = "US Army officer's cap"
 	desc = "Standard issue US Army officer's cap."
 	icon = 'icons/fallout/clothing/hats.dmi'

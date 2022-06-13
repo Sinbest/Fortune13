@@ -21,7 +21,7 @@
 	weapon_weight = WEAPON_HEAVY
 	slot_flags = ITEM_SLOT_BACK
 	can_automatic = FALSE
-	slowdown = 0.5 
+	slowdown = 0.5
 	fire_delay = 7
 	spread = 0
 	force = 15 //Decent clubs generally speaking
@@ -150,7 +150,7 @@
 //Hunting Rifle							Keywords: .308, Bolt-action, 5 rounds internal
 /obj/item/gun/ballistic/rifle/hunting
 	name = "hunting rifle"
-	desc = "A sturdy hunting rifle, chambered in .308. and in use before the war."
+	desc = "A sturdy hunting rifle, chambered in .308, useful for shooting deer, not very useful for shooting humans due to it's slow speed."
 	icon_state = "308"
 	item_state = "308"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/hunting
@@ -184,7 +184,7 @@
 	fire_delay = 12
 	extra_damage = 9
 	extra_penetration = 0.05
-	extra_speed = 800 
+	extra_speed = 800
 	force = 18
 	untinkerable = TRUE
 
