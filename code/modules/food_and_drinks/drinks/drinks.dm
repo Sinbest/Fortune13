@@ -280,7 +280,7 @@
 /obj/item/reagent_containers/food/drinks/mug/ // parent type is literally just so empty mug sprites are a thing
 	name = "mug"
 	desc = "A drink served in a classy mug."
-	icon_state = "tea"
+	icon_state = "cup_empty"
 	item_state = "coffee"
 	spillable = TRUE
 
@@ -291,43 +291,43 @@
 		MA.color = mix_color_from_reagents(reagents.reagent_list)
 		add_overlay(MA)
 	else
-		icon_state = "tea_empty"
+		icon_state = "cup_empty"
 
 /obj/item/reagent_containers/food/drinks/mug/tea
 	name = "Duke Purple tea"
-	icon_state = "tea"
-	desc = "An insult to Duke Purple is an insult to the Space Queen! Any proper gentleman will fight you, if you sully this tea."
+	icon_state = "cup_tea"
+	desc = "An insult to Duke Purple is an insult to the Queen! Any proper gentleman will fight you, if you sully this tea."
 	list_reagents = list(/datum/reagent/consumable/tea = 30)
 
 /obj/item/reagent_containers/food/drinks/mug/tea/red
 	name = "Dutchess Red tea"
-	icon_state = "tea"
+	icon_state = "cup_tea"
 	desc = "Duchess Red's personal blend of red tea leaves and hot water. Great addition to any meal."
 	list_reagents = list(/datum/reagent/consumable/tea/red = 30)
 
 /obj/item/reagent_containers/food/drinks/mug/tea/green
 	name = "Prince Green tea"
-	icon_state = "tea"
+	icon_state = "cup_tea"
 	desc = "Prince Green's brew of tea. The blend may be different from time to time, but Prince Green swears by it!"
 	list_reagents = list(/datum/reagent/consumable/tea/green = 30)
 
 /obj/item/reagent_containers/food/drinks/mug/tea/forest
 	name = "Royal Forest tea"
-	icon_state = "tea"
+	icon_state = "cup_tea"
 	desc = "Tea fit for anyone with a sweet tooth like Royal Forest."
 	list_reagents = list(/datum/reagent/consumable/tea/forest = 30)
 
 /obj/item/reagent_containers/food/drinks/mug/tea/mush
 	name = "Rebel Mush tea"
-	icon_state = "tea"
+	icon_state = "cup_tea"
 	desc = "Rebel Mush, a hallucinogenic tea to help people find their inner self."
 	list_reagents = list(/datum/reagent/consumable/tea/mush = 30)
 
 
 /obj/item/reagent_containers/food/drinks/mug/coco
 	name = "Dutch hot coco"
-	desc = "Made in Space South America."
-	icon_state = "coco"
+	desc = "Made in South America."
+	icon_state = "cup_coco"
 	list_reagents = list(/datum/reagent/consumable/hot_coco = 30, /datum/reagent/consumable/sugar = 5)
 	foodtype = SUGAR
 	resistance_flags = FREEZE_PROOF

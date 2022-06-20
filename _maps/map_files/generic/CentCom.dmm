@@ -5818,6 +5818,9 @@
 /obj/item/pen/fourcolor,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/centcom)
+"Am" = (
+/turf/open/floor/grass,
+/area/space)
 "At" = (
 /obj/structure/displaycase/trophy,
 /turf/open/floor/plasteel/grimy,
@@ -7624,7 +7627,7 @@
 /obj/structure/flora/tree/tall{
 	icon_state = "tree_2"
 	},
-/turf/open/indestructible/ground/outside/savannah,
+/turf/open/floor/grass,
 /area/centcom)
 "HQ" = (
 /obj/structure/sink/kitchen{
@@ -8066,7 +8069,7 @@
 	},
 /area/centcom/evac)
 "JP" = (
-/turf/open/indestructible/ground/outside/savannah,
+/turf/open/floor/grass,
 /area/f13/underground/mountain)
 "JR" = (
 /obj/effect/turf_decal/caution/stand_clear{
@@ -10726,6 +10729,9 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/centcom/evac)
+"TG" = (
+/turf/open/floor/grass,
+/area/centcom/evac)
 "TH" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
@@ -12315,7 +12321,7 @@
 	},
 /area/centcom/evac)
 "ZR" = (
-/turf/open/indestructible/ground/outside/savannah,
+/turf/open/floor/grass,
 /area/centcom)
 "ZS" = (
 /obj/structure/barricade/security,
@@ -33120,7 +33126,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -33377,7 +33383,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -33634,7 +33640,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -33891,7 +33897,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -34148,7 +34154,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -34405,7 +34411,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -34662,7 +34668,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -34919,7 +34925,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -35176,7 +35182,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -35433,7 +35439,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -35690,7 +35696,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -35947,7 +35953,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -36204,7 +36210,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -36461,7 +36467,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -36718,7 +36724,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -36975,7 +36981,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -37232,7 +37238,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -37489,7 +37495,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -37746,7 +37752,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -38003,7 +38009,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -39031,7 +39037,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -39288,7 +39294,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -39545,7 +39551,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -39802,7 +39808,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -40059,7 +40065,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -40316,7 +40322,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -40573,7 +40579,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -40830,7 +40836,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -41087,7 +41093,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -41344,7 +41350,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -41601,7 +41607,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -41858,7 +41864,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -42115,7 +42121,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -42372,7 +42378,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -42629,7 +42635,7 @@ Wy
 Wy
 Wy
 Wy
-Bm
+TG
 ZR
 ZR
 ZR
@@ -43914,7 +43920,7 @@ Wy
 Wy
 Wy
 Wy
-Wy
+Am
 ZR
 ZR
 ZR
