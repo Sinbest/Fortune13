@@ -3,7 +3,7 @@
 
 //Police
 
-/obj/item/clothing/suit/f13/police
+/obj/item/clothing/suit/f13/police/officer
 	name = "police officer's jacket"
 	desc = "A simple dark navy jacket, worn by police."
 	icon = 'icons/fallout/clothing/suits_cosmetic.dmi'

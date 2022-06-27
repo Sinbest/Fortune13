@@ -292,7 +292,7 @@
 				if(!checkCCcooldown())
 					to_chat(usr, "<span class='warning'>Arrays recycling. Please stand by.</span>")
 					return
-				var/input = stripped_input(usr, "Please choose a message to transmit to the Government.  Please be aware that the Government's time is very valuable and improper use of this system may lead to punishment.  Transmission does not guarantee a response.", "Send a message to the Government.", "")
+				var/input = stripped_input(usr, "Please choose a message to transmit to the Government.  Your message should contain: Who you are, (such as: Local City Government, Local Police Department, Local National Guard detachment). Who in the goverment you are sending the message to, (such as: Federal Government, State Government, Military Command). And what you are requesting, (such as: Personnel assistance, funds, military things)  Please be aware that the Government's time is very valuable and improper use of this system may lead to punishment.  Transmission does not guarantee a response.", "Send a message to the Government.", "")
 				if(!input || !(usr in view(1,src)) || !checkCCcooldown())
 					return
 				playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)

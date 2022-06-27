@@ -72,7 +72,7 @@
 	icon_state = "police_formal"
 	item_state = "police_formal"
 
-//Army clothing
+//Army
 
 /obj/item/clothing/under/f13/army
 	name = "US Army combat uniform"

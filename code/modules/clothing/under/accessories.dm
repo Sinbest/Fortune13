@@ -655,3 +655,39 @@
 	desc = "A Chief Ranger should wear this."
 	icon_state = "colonelrank" //TO-DO: Add a new sprite
 	item_color = "colonelrank"
+
+//Tranquilityville
+
+//Law Enforcement
+
+/obj/item/clothing/accessory/police/CPL
+	name = "'Corporal' rank insigina"
+	desc = "A Corporal should wear this."
+	icon_state = "police_corporal"
+	item_color = "police_corporal"
+
+/obj/item/clothing/accessory/police/SGT
+	name = "'Sergeant' rank insigina"
+	desc = "A Sergeant should wear this."
+	icon_state = "police_sergeant"
+	item_color = "police_sergeant"
+
+/obj/item/clothing/accessory/police/SSGT
+	name = "'Staff Sergeant' rank insigina"
+	desc = "A Staff Sergeant should wear this."
+	icon_state = "police_staff_sergeant"
+	item_color = "police_staff_sergeant"
+
+/obj/item/clothing/accessory/police/SFC
+	name = "'Sergeant First Class' rank insigina"
+	desc = "A Sergeant First Class should wear this."
+	icon_state = "police_sergeant_first_class"
+	item_color = "police_sergeant_first_class"
+
+//Military
+
+/obj/item/clothing/accessory/armband/military_police
+	name = "military police brassard"
+	desc = "An armlet, worn by military police officers."
+	icon_state = "mpband"
+	item_color = "mpband"

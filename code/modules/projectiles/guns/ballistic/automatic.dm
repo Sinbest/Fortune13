@@ -566,19 +566,26 @@
 
 
 //Police rifle			Keywords: POLICE, 5.56mm, Semi-auto, 30 (10-50) round magazine
-/obj/item/gun/ballistic/automatic/marksman/police
+/obj/item/gun/ballistic/automatic/service/police
 	name = "police rifle"
-	desc = "A 5.56x45mm rifle built off the AR platform, popular with police departments."
+	desc = "A 5.56x45mm rifle built off the AR platform, while originally rather bland, guns with petroleum-based plastic like this have become quite valuable since the oil ran out."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "m16a1"
 	item_state = "assault_carbine"
 	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/extended
-	fire_delay = 4.2
-	can_suppress = FALSE
-	can_scope = TRUE
-	zoomable = FALSE
+	fire_delay = 4.5
+	burst_size = 1
+	spread = 1
+	can_attachments = TRUE
+	automatic_burst_overlay = FALSE
+	semi_auto = TRUE
+	can_bayonet = TRUE
+	bayonet_state = "bayonet"
+	knife_x_offset = 22
+	knife_y_offset = 21
+	fire_sound = 'sound/f13weapons/varmint_rifle.ogg'
 
 
 //Marksman carbine			Keywords: 5.56mm, Semi-auto, 20 (10-50) round magazine, Small scope

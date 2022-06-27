@@ -279,6 +279,19 @@
 	new /obj/item/melee/baton/loaded(src)
 	update_icon()
 
+/obj/item/storage/belt/security/police/PopulateContents()
+	new /obj/item/reagent_containers/spray/pepper(src)
+	new /obj/item/restraints/handcuffs(src)
+	new /obj/item/melee/classic_baton/police(src)
+	update_icon()
+
+/obj/item/storage/belt/security/militarypolice/PopulateContents()
+	new /obj/item/reagent_containers/spray/pepper(src)
+	new /obj/item/restraints/handcuffs(src)
+	new /obj/item/grenade/flashbang(src)
+	new /obj/item/melee/classic_baton/military_police(src)
+	update_icon()
+
 /obj/item/storage/belt/mining
 	name = "explorer's webbing"
 	desc = "A versatile chest rig, cherished by miners and hunters alike."
@@ -803,6 +816,11 @@
 /obj/item/storage/belt/holster/legholster/aep7/PopulateContents()
 	new /obj/item/gun/energy/laser/pistol(src)
 	new /obj/item/stock_parts/cell/ammo/ec(src)
+
+/obj/item/storage/belt/holster/legholster/policepistol/PopulateContents()
+	new /obj/item/gun/ballistic/revolver/police(src)
+	new /obj/item/ammo_casing/a357(src)
+	new /obj/item/ammo_casing/a357(src)
 
 /obj/item/storage/belt/fannypack
 	name = "fannypack"

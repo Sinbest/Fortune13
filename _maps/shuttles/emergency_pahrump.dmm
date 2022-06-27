@@ -1,432 +1,494 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/obj/structure/barricade/bars,
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
+"aR" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 10
 	},
 /area/shuttle/escape)
-"c" = (
+"ba" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 4
+	},
+/area/shuttle/escape)
+"bw" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/shuttle/escape)
+"cl" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"ds" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/shuttle/escape)
+"ez" = (
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowright"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/shuttle/escape)
+"fh" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/shuttle/escape)
+"ku" = (
+/obj/structure/chair/booth{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"lT" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 9
+	},
+/area/shuttle/escape)
+"mi" = (
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowvertical"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/shuttle/escape)
+"pc" = (
+/obj/structure/window/fulltile/store,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/shuttle/escape)
+"qy" = (
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowbottom"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/shuttle/escape)
+"rx" = (
+/obj/structure/chair/booth{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"vv" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/shuttle/escape)
+"wh" = (
+/obj/machinery/computer/emergency_shuttle{
+	desc = "For train control.";
+	dir = 1;
+	name = "train controls"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"wX" = (
+/turf/template_noop,
+/area/template_noop)
+"xG" = (
+/obj/structure/chair/booth,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"zD" = (
+/obj/structure/chair/booth,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"Bf" = (
 /obj/docking_port/mobile/emergency{
 	dwidth = 24;
 	height = 6;
 	name = "Vault emergency shuttle";
 	width = 25
 	},
-/turf/closed/wall/rust,
+/turf/closed/wall,
 /area/shuttle/escape)
-"i" = (
-/obj/structure/chair/left{
-	dir = 8
-	},
-/obj/structure/sign/poster/prewar/poster94{
-	pixel_x = 32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"j" = (
-/obj/structure/decoration/smokeold{
-	pixel_x = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"k" = (
-/obj/structure/chair/right{
+"Cx" = (
+/obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 9
 	},
 /area/shuttle/escape)
-"l" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+"EU" = (
+/obj/structure/chair/booth{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/shuttle/escape)
-"m" = (
-/obj/structure/chair/left{
+"Hs" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 6
+	},
+/area/shuttle/escape)
+"HG" = (
+/obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/sign/poster/prewar/poster72{
-	pixel_x = 32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 5
 	},
 /area/shuttle/escape)
-"n" = (
-/obj/structure/table/reinforced,
-/obj/machinery/microwave{
-	pixel_y = 5
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+"Iz" = (
+/turf/closed/wall,
 /area/shuttle/escape)
-"o" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"q" = (
-/obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/food,
-/obj/effect/spawner/lootdrop/food,
-/obj/effect/spawner/lootdrop/food,
-/obj/item/reagent_containers/food/snacks/f13/wastelandwellington,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"r" = (
+"Jc" = (
 /obj/machinery/door/airlock/grunge,
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"KS" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/shuttle/escape)
+"Mj" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/shuttle/escape)
+"MI" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"MN" = (
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowleft"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/shuttle/escape)
+"OC" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 4
 	},
 /area/shuttle/escape)
-"s" = (
-/obj/machinery/food_cart,
-/obj/machinery/light/small{
+"Qr" = (
+/obj/structure/chair/office/dark,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/shuttle/escape)
+"SH" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/shuttle/escape)
+"SV" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/shuttle/escape)
+"Ul" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 5
+	},
+/area/shuttle/escape)
+"Um" = (
+/obj/structure/chair/booth,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"WL" = (
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowvertical"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/shuttle/escape)
+"WV" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/shuttle/escape)
-"t" = (
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"u" = (
-/obj/structure/chair/right{
-	dir = 4
-	},
-/obj/structure/sign/poster/prewar/poster62{
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"v" = (
-/obj/structure/chair/left{
+"Xe" = (
+/obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"w" = (
-/turf/closed/wall/rust,
-/area/shuttle/escape)
-"x" = (
-/obj/structure/simple_door/metal/barred,
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/shuttle/escape)
-"y" = (
-/obj/structure/curtain{
-	color = "#845f58";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"z" = (
-/obj/structure/closet/fridge,
-/obj/item/reagent_containers/food/snacks/bun,
-/obj/item/reagent_containers/food/snacks/bun,
-/obj/item/reagent_containers/food/snacks/bun,
-/obj/item/reagent_containers/food/snacks/dough,
-/obj/item/reagent_containers/food/snacks/dough,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"A" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/three_course_meal,
-/obj/effect/spawner/lootdrop/three_course_meal,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"B" = (
-/obj/item/storage/bag/tray,
-/obj/structure/table/reinforced,
-/obj/item/storage/bag/trash,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"G" = (
-/obj/structure/chair/left{
-	dir = 4
-	},
-/obj/machinery/light/small{
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 8
 	},
-/obj/structure/curtain{
-	color = "#845f58";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
 /area/shuttle/escape)
-"H" = (
-/obj/structure/chair/right{
+"Yf" = (
+/obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/curtain{
-	color = "#845f58";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"K" = (
-/obj/structure/sink/kitchen{
-	pixel_y = 30
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"L" = (
-/obj/structure/table/reinforced,
-/obj/machinery/processor/chopping_block,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/shuttle/escape)
-"N" = (
-/obj/structure/chair/left{
-	dir = 4
-	},
-/obj/structure/sign/poster/prewar/poster81{
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"P" = (
-/obj/structure/chair/right{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"R" = (
-/obj/structure/chair/left{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"W" = (
-/obj/structure/decoration/smokeold{
-	pixel_x = 32
-	},
-/obj/structure/table,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"X" = (
-/obj/structure/chair/right{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"Y" = (
-/obj/structure/chair/left{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/shuttle/escape)
-"Z" = (
-/obj/structure/chair/left{
-	dir = 4
-	},
-/obj/structure/sign/poster/prewar/poster66{
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/shuttle/escape)
 
 (1,1,1) = {"
-w
-w
-w
-w
-w
-w
-w
-w
-w
-r
-w
-w
-w
-w
-w
-r
-w
-w
-w
-w
-w
-r
-w
-w
-c
+fh
+Iz
+MI
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+MI
+Iz
+wX
+Iz
+MI
+Iz
+mi
+Iz
+mi
+Iz
+mi
+Iz
+mi
+Iz
+MI
+Iz
+wX
+Iz
+MI
+Iz
+mi
+Iz
+mi
+Iz
+mi
+Iz
+mi
+Iz
+MI
+Iz
+wX
+Iz
+Iz
+Iz
+Iz
+Iz
+Iz
+MI
+qy
+Bf
 "}
 (2,1,1) = {"
-w
-n
-l
-L
-B
-s
-a
-G
-k
-t
-Y
-X
-a
-G
-u
-t
-N
-X
-a
-G
-k
-t
-Z
-X
-w
+Mj
+Iz
+Ul
+xG
+WV
+zD
+WV
+xG
+WV
+zD
+WV
+xG
+aR
+Iz
+WL
+Iz
+Ul
+xG
+WV
+zD
+WV
+xG
+WV
+zD
+WV
+xG
+aR
+Iz
+WL
+Iz
+Ul
+xG
+WV
+EU
+zD
+Yf
+EU
+zD
+WV
+rx
+aR
+Iz
+WL
+Iz
+Ul
+Xe
+aR
+Iz
+HG
+aR
+cl
+MN
 "}
 (3,1,1) = {"
-w
-o
-l
-l
-l
-l
-x
-y
-t
-t
-t
-t
-x
-y
-t
-t
-t
-t
-x
-y
-t
-t
-t
-t
-w
+Mj
+MI
+vv
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+KS
+Jc
+bw
+Jc
+vv
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+KS
+Jc
+bw
+Jc
+vv
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+SV
+KS
+Jc
+bw
+Jc
+vv
+SV
+KS
+Jc
+vv
+Qr
+wh
+pc
 "}
 (4,1,1) = {"
-w
-q
-l
-l
-l
-l
-x
-y
-t
-t
-t
-t
-x
-y
-t
-t
-t
-t
-x
-y
-t
-t
-t
-t
-w
+Mj
+Iz
+lT
+Um
+ba
+zD
+ba
+Um
+ba
+zD
+ba
+Um
+Hs
+Iz
+WL
+Iz
+lT
+Um
+ba
+zD
+ba
+Um
+ba
+zD
+ba
+Um
+Hs
+Iz
+WL
+Iz
+lT
+Um
+ba
+EU
+zD
+ds
+EU
+zD
+ba
+ku
+Hs
+Iz
+WL
+Iz
+lT
+OC
+Hs
+Iz
+Cx
+Hs
+cl
+ez
 "}
 (5,1,1) = {"
-w
-K
-l
-j
-z
-A
-a
-H
-i
-W
-P
-R
-a
-H
-v
-W
-P
-R
-a
-H
-m
-W
-P
-R
-w
-"}
-(6,1,1) = {"
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
-w
+SH
+Iz
+MI
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+MI
+Iz
+wX
+Iz
+MI
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+MI
+Iz
+wX
+Iz
+MI
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+WL
+Iz
+MI
+Iz
+wX
+Iz
+Iz
+Iz
+Iz
+Iz
+Iz
+MI
+qy
+Iz
 "}

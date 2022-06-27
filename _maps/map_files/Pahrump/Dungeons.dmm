@@ -149,7 +149,7 @@
 /area/f13/bunker)
 "aL" = (
 /obj/structure/closet,
-/obj/item/melee/classic_baton/militarypolice,
+/obj/item/melee/classic_baton/military_police,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/f13/bunker)
 "aN" = (
@@ -1119,8 +1119,8 @@
 /area/indoors/bunker)
 "eF" = (
 /obj/structure/closet/crate/footlocker,
-/obj/item/clothing/under/f13/army/nationalguard,
-/obj/item/clothing/head/armycap/nationalguard,
+/obj/item/clothing/under/f13/army,
+/obj/item/clothing/head/army,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/f13/bunker)
 "eH" = (
@@ -1622,7 +1622,7 @@
 /area/indoors/bunker)
 "he" = (
 /obj/structure/closet/crate/footlocker,
-/obj/item/clothing/head/armycap/nationalguard,
+/obj/item/clothing/head/army,
 /obj/item/clothing/shoes/f13/military,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/f13/bunker)
@@ -5669,8 +5669,8 @@
 /area/indoors/caves)
 "AT" = (
 /obj/structure/closet,
-/obj/item/clothing/under/f13/army/nationalguard/officer,
-/obj/item/clothing/head/armycap/nationalguard/officer,
+/obj/item/clothing/under/f13/army/officer,
+/obj/item/clothing/head/army/officer,
 /turf/open/floor/carpet/black,
 /area/f13/bunker)
 "AU" = (
@@ -8250,7 +8250,7 @@
 "MS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/footlocker,
-/obj/item/clothing/under/f13/army/nationalguard,
+/obj/item/clothing/under/f13/army,
 /turf/open/floor/plasteel/f13/vault_floor/green/greenchess/greenchess2/dirty,
 /area/f13/bunker)
 "MT" = (

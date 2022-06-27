@@ -194,7 +194,7 @@
 //Police Shotgun				Keywords: Shotgun, Pump-action, 6 rounds, Folding stock, Flashlight rail
 /obj/item/gun/ballistic/shotgun/police
 	name = "police shotgun"
-	desc = "A pre-war shotgun with large magazine and folding stock, made from steel and polymers. Flashlight attachment rail."
+	desc = "A police shotgun with large magazine, folding stock, and a flashlight attachment rail, made from steel and polymers."
 	icon_state = "shotgunpolice"
 	item_state = "shotgunpolice"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/police
@@ -393,7 +393,7 @@
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "shotgunriot"
-	item_state = "shotgunriot" 
+	item_state = "shotgunriot"
 	w_class = WEIGHT_CLASS_BULKY
 	untinkerable = TRUE
 	mag_type = /obj/item/ammo_box/magazine/d12g

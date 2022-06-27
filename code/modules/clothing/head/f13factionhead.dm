@@ -47,7 +47,7 @@
 	. = ..()
 	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_HEAD))*/
 
-//Police
+//Law Enforcement
 
 obj/item/clothing/head/f13/police/officer
 	name = "police officer's cap"
@@ -81,7 +81,8 @@ obj/item/clothing/head/f13/police/officer
 	icon_state = "police_chief"
 	item_state = "police_chief"
 
-//Army clothing
+//United States Army
+
 /obj/item/clothing/head/army
 	name = "US Army field cap"
 	desc = "Standard issue US Army field cap."
@@ -99,6 +100,38 @@ obj/item/clothing/head/f13/police/officer
 	icon_state = "army_officer"
 	item_state = "army_officer"
 	dynamic_hair_suffix = "+generic"
+
+obj/item/clothing/head/f13/army/beret
+	name = "US Army beret"
+	desc = "A black beret, standard issue for all US Army personnel not authorised to wear a different beret."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret"
+	item_state = "army_beret"
+
+/obj/item/clothing/head/f13/army/beret/airborne
+	name = "US Army airborne beret"
+	desc = "A red beret, issued to US Army Airborne personnel."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret_airborne"
+	item_state = "army_beret_airborne"
+
+/obj/item/clothing/head/f13/army/beret/specialforces
+	name = "US Army special forces beret"
+	desc = "A green beret, issued to US Army Special Forces personnel."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret_specialforces"
+	item_state = "army_beret_specialforces"
+
+obj/item/clothing/head/helmet/f13/army/crewman
+	name = "US Army armor crewman helmet"
+	desc = "A green helmet designed for personnel operating and manning military armored vehicles, probably won't stop a bullet, but will protect your head if you crash into something."
+	icon = 'icons/fallout/clothing/helmets.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/helmet.dmi'
+	icon_state = "army_crewman"
+	item_state = "army_crewman"
 
 /*
 

@@ -2,6 +2,10 @@
  *	Premade paper
  */
 
+/obj/item/paper/fluff
+	icon_state = "paper_words"
+	item_state = "paper_words"
+
 /obj/item/paper/fluff/sop
 	name = "paper- 'Standard Operating Procedure'"
 	info = "Alert Levels:<BR>\nBlue- Emergency<BR>\n\t1. Caused by fire<BR>\n\t2. Caused by manual interaction<BR>\n\tAction:<BR>\n\t\tClose all fire doors. These can only be opened by resetting the alarm<BR>\nRed- Ejection/Self-Destruct<BR>\n\t1. Caused by module operating computer.<BR>\n\tAction:<BR>\n\t\tAfter the specified time the module will eject completely.<BR>\n<BR>\nEngine Maintenance Instructions:<BR>\n\tShut off ignition systems:<BR>\n\tActivate internal power<BR>\n\tActivate orbital balance matrix<BR>\n\tRemove volatile liquids from area<BR>\n\tWear a fire suit<BR>\n<BR>\n\tAfter<BR>\n\t\tDecontaminate<BR>\n\t\tVisit medical examiner<BR>\n<BR>\nToxin Laboratory Procedure:<BR>\n\tWear a gas mask regardless<BR>\n\tGet an oxygen tank.<BR>\n\tActivate internal atmosphere<BR>\n<BR>\n\tAfter<BR>\n\t\tDecontaminate<BR>\n\t\tVisit medical examiner<BR>\n<BR>\nDisaster Procedure:<BR>\n\tFire:<BR>\n\t\tActivate sector fire alarm.<BR>\n\t\tMove to a safe area.<BR>\n\t\tGet a fire suit<BR>\n\t\tAfter:<BR>\n\t\t\tAssess Damage<BR>\n\t\t\tRepair damages<BR>\n\t\t\tIf needed, Evacuate<BR>\n\tMeteor Shower:<BR>\n\t\tActivate fire alarm<BR>\n\t\tMove to the back of ship<BR>\n\t\tAfter<BR>\n\t\t\tRepair damage<BR>\n\t\t\tIf needed, Evacuate<BR>\n\tAccidental Reentry:<BR>\n\t\tActivate fire alarms in front of ship.<BR>\n\t\tMove volatile matter to a fire proof area!<BR>\n\t\tGet a fire suit.<BR>\n\t\tStay secure until an emergency ship arrives.<BR>\n<BR>\n\t\tIf ship does not arrive-<BR>\n\t\t\tEvacuate to a nearby safe area!"
@@ -258,10 +262,49 @@
 
 ////// Tranquilityville
 
-/obj/item/paper/fluff/tranquilityville/annoucement_system
+obj/item/paper/fluff/tranquilityville/misc/tannenbay_estate_notice
+	name = "Notice to visitors"
+	info = {"If you are looking for Gen. Vivian Tannenbay, she is at the front in China, but will return on October 10th.
+	<br>
+	If you are looking for Mr. Zackariah Tannenbay "}
+
+/obj/item/paper/fluff/tranquilityville/government/annoucement_system
 	name = "About the City Annoucement System"
 	info = "Mayor, the City Annoucement System (CAS) should be operational now, using the communication terminal underneath this note you can send emergency annoucements to the townsfolk, key word being EMERGENCY, you should not use this system for frivolous reasons, as it may reduce your chances of re-election as well as damage windows."
 
 obj/item/paper/fluff/tranquilityville/civil_defence/admin
 	name = "Welcome Administrator"
 	info = "Welcome to Tranquilityville Administrator, while this office space may not be lavish, it may be"
+
+obj/item/paper/fluff/tranquilityville/military/commanders_letter
+	name = "Letter to the Commander"
+	info = {"From: GEN. Vivian A. Tannenbay
+	<br>
+	To: Commanding Officer, Fort Waldrow.
+	<br>
+	October 3rd, 2077
+	<br>
+	Dear Commander.
+	<br>
+	I am writing to you from the front here in mainland China, facing off against the oriental communists that threaten our great republic, while the current tide of war appears to be in our favor, do not be fooled, the tide is unpredictable, and could change at any time.
+	<br>
+	If the tide ever were to change, and, God forbid, the Continental United States ever were to be in danger, you and your men could be the first and last line of defence of our nation.
+	<br>
+	You must always be ready to defend this great land which God as been so kind and gracious to gift to us, you must always be prepared to defend our people from the freedom-hating mongoloidic hordes that want nothing more than to rape and pillage this land.
+	<br>
+	My final message is this, be always vigilant, always ready, and always faithful, as the marines would say.
+	<br>
+	Godspeed Commander, and may the United States reign supreme!"}
+
+obj/item/paper/fluff/tranquilityville/military/uniform_letter
+	name = "Letter to General Tannenbay"
+	info = {"From: LTC. Joshua Delgado
+	<br>
+	To: GEN. Vivian Tannenbay
+	<br>
+	So many to choose from, and they're all very similar, still on the fence about the tan and black, but here's my thoughts about the uniforms.
+	<br>
+	A is very heavy on the black, not really a good or bad thing, just notable, the collar looks too much like a trenchcoat for my tastes, and I really don't like the brown on the cap.
+	<br>
+	B is growing on me the more I look at it, the cap is probably the nicest as tan works good on it
+	"}

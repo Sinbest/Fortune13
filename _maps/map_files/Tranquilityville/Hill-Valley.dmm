@@ -57,13 +57,19 @@
 	},
 /area/outdoors)
 "aw" = (
-/obj/structure/simple_door/metal/store,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/outdoors)
-"aA" = (
 /obj/structure/rack/steel,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/toolbox/electrical,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/indoors)
+"aA" = (
+/obj/structure/rack/steel,
+/obj/item/clothing/head/welding,
+/obj/item/clothing/head/welding,
+/obj/machinery/light_switch{
+	pixel_x = -11;
+	pixel_y = -32
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "aB" = (
@@ -102,9 +108,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "aI" = (
-/obj/structure/window/fulltile/store{
-	icon_state = "storewindowvertical"
-	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/westright,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/outdoors)
 "aL" = (
@@ -121,17 +126,25 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "aQ" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor/westright,
+/obj/structure/simple_door/metal/store,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/outdoors)
 "aV" = (
-/obj/machinery/light,
-/obj/structure/chair/office/dark{
-	dir = 4
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "rations" written on it is taped to the side.";
+	name = "wooden crate (rations)"
 	},
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/item/reagent_containers/glass/beaker/waterbottle,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/outdoors)
+/area/indoors)
 "aX" = (
 /turf/closed/indestructible/f13/matrix,
 /area/indoors/sewer)
@@ -142,11 +155,8 @@
 	},
 /area/outdoors)
 "bd" = (
-/obj/structure/rack/steel,
-/obj/item/clothing/head/welding,
-/obj/item/clothing/head/welding,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/indoors)
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/outdoors)
 "bj" = (
 /obj/structure/fence/corner{
 	dir = 1
@@ -240,12 +250,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "bI" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/simple_door/room,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/indoors)
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outdoors)
 "bJ" = (
 /obj/machinery/space_heater,
 /obj/structure/railing{
@@ -403,6 +409,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"de" = (
+/turf/open/floor/plasteel/f13/vault_floor/green/solid,
+/area/outdoors)
 "dg" = (
 /obj/structure/closet/crate/wooden/toy,
 /obj/item/toy/ammo/gun,
@@ -468,6 +477,11 @@
 	},
 /turf/open/floor/wood/f13/stage_tr/outdoors,
 /area/indoors)
+"dV" = (
+/obj/structure/table,
+/obj/item/stack/medical/bone_gel,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 "dW" = (
 /obj/structure/filingcabinet/filingcabinet,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -566,7 +580,10 @@
 	},
 /area/outdoors)
 "eP" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "gas masks" written on it is taped to the side.";
+	name = "wooden crate (gas masks)"
+	},
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
@@ -582,6 +599,12 @@
 /obj/item/clipboard,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"eX" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/outdoors)
 "eY" = (
 /obj/machinery/light{
 	dir = 8
@@ -609,8 +632,8 @@
 /area/indoors)
 "fe" = (
 /obj/structure/table,
-/obj/machinery/button{
-	id = "policestationlockdown';
+/obj/machinery/button/door{
+	id = "policestationlockdown";
 	name = "Police Station Lockdown";
 	pixel_y = 2
 	},
@@ -890,6 +913,12 @@
 	},
 /turf/open/floor/wood/wood_diagonal,
 /area/indoors)
+"ho" = (
+/obj/structure/simple_door/metal/fence,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area/outdoors)
 "hq" = (
 /turf/closed/indestructible/rock,
 /area/outdoors)
@@ -964,23 +993,28 @@
 /turf/open/floor/plasteel/f13/vault_floor/green/solid,
 /area/indoors/sewer)
 "hT" = (
-/turf/open/floor/plasteel/f13{
-	dir = 1;
-	icon_state = "rampdowntop"
-	},
+/obj/structure/simple_door/room,
+/turf/open/floor/wood/wood_tiled,
 /area/outdoors)
 "hX" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/green/solid,
 /area/indoors/sewer)
 "hZ" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "medical supplies" written on it is taped to the side.";
+	name = "wooden crate (medical supplies)"
+	},
+/obj/item/storage/firstaid/radbgone,
 /obj/item/storage/firstaid/radbgone,
 /obj/item/storage/firstaid/radbgone,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "ib" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "rations" written on it is taped to the side.";
+	name = "wooden crate (rations)"
+	},
 /obj/item/reagent_containers/food/snacks/beans,
 /obj/item/reagent_containers/food/snacks/beans,
 /obj/item/reagent_containers/food/snacks/beans,
@@ -1011,7 +1045,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "iq" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "construction supplies" written on it is taped to the side.";
+	name = "wooden crate (construction supplies)"
+	},
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/head/welding,
@@ -1053,7 +1090,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "iI" = (
-/obj/structure/closet/crate/wooden,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
@@ -1063,6 +1099,10 @@
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "rations" written on it is taped to the side.";
+	name = "wooden crate (rations)"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "iV" = (
@@ -1076,9 +1116,14 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "jr" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "medical supplies" written on it is taped to the side.";
+	name = "wooden crate (medical supplies)"
+	},
 /obj/item/storage/firstaid,
 /obj/item/storage/firstaid,
+/obj/item/storage/firstaid,
+/obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/fire,
 /obj/machinery/light{
@@ -1100,7 +1145,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
 "jR" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "beds" written on it is taped to the side.";
+	name = "wooden crate (beds)"
+	},
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
@@ -1119,7 +1167,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "jU" = (
-/obj/structure/closet/crate/wooden,
+/obj/structure/closet/crate/wooden{
+	desc = "Works just as well as a metal one. A piece of paper with "medical supplies" written on it is taped to the side.";
+	name = "wooden crate (medical supplies)"
+	},
 /obj/item/storage/box/bodybags,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/item/clothing/gloves/color/latex,
@@ -1260,6 +1311,22 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"lk" = (
+/obj/structure/table,
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_open";
+	name = "blinds";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
+"lp" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/outdoors)
 "lu" = (
 /obj/structure/table/wood/settler,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
@@ -1274,11 +1341,6 @@
 "lz" = (
 /obj/structure/guncase,
 /obj/effect/turf_decal/stripes/white/line,
-/obj/item/gun/ballistic/automatic/marksman/police,
-/obj/item/gun/ballistic/automatic/marksman/police,
-/obj/item/gun/ballistic/automatic/marksman/police,
-/obj/item/gun/ballistic/automatic/marksman/police,
-/obj/item/gun/ballistic/automatic/marksman/police,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "lF" = (
@@ -1319,19 +1381,14 @@
 /turf/open/indestructible/ground/outside/savannah,
 /area/outdoors)
 "lX" = (
-/obj/structure/table,
-/obj/item/scalpel{
-	pixel_y = 14
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/item/circular_saw,
-/obj/structure/curtain{
-	color = "#FFFFFF";
-	icon_state = "blinds_open";
-	name = "blinds";
-	pixel_y = -32
+/obj/structure/sign/warning/nosmoking/circle{
+	pixel_x = -32
 	},
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/outdoors)
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/indoors)
 "lZ" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalleftborderright0"
@@ -1382,10 +1439,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "mt" = (
-/obj/structure/railing/wood/corner{
-	dir = 1
+/turf/closed/wall/r_wall/f13/vault{
+	name = "reinforced regulation wall"
 	},
-/turf/open/indestructible/ground/outside/savannah,
 /area/outdoors)
 "mu" = (
 /obj/structure/table/reinforced,
@@ -1469,6 +1525,15 @@
 	},
 /turf/open/floor/wood,
 /area/indoors)
+"ni" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/machinery/light{
+	pixel_x = -16
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 "nj" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -1491,6 +1556,11 @@
 	},
 /turf/open/floor/wood,
 /area/indoors)
+"no" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/eastright,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/outdoors)
 "np" = (
 /obj/structure/sink{
 	dir = 8;
@@ -1737,7 +1807,7 @@
 /obj/structure/signs{
 	icon = 'icons/fallout/decals/walldecoration.dmi';
 	icon_state = "greatseal";
-	name = "Flag of the United States";
+	name = "Great Seal of the United States";
 	pixel_y = 32
 	},
 /turf/open/floor/wood,
@@ -1980,7 +2050,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/sign/warning/nosmoking/circle{
+/obj/structure/extinguisher_cabinet{
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -2089,12 +2159,6 @@
 /obj/structure/sign/warning/nosmoking/circle{
 	pixel_x = 32
 	},
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
-/obj/item/clothing/mask/gas/sechailer,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "rC" = (
@@ -2177,11 +2241,9 @@
 /turf/open/transparent/openspace/outside,
 /area/indoors)
 "sM" = (
+/obj/structure/filingcabinet/chestdrawer,
 /obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/sign/warning/nosmoking/circle{
-	pixel_x = -32
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
@@ -2202,7 +2264,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/extinguisher_cabinet{
+/obj/structure/sign/warning/nosmoking/circle{
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -2223,15 +2285,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/outdoors)
-"ta" = (
-/obj/structure/closet/anchored,
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/under/f13/police/officer,
-/obj/item/clothing/head/f13/police/officer,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/head/helmet,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/indoors)
 "tc" = (
 /obj/structure/railing{
 	dir = 10
@@ -2276,6 +2329,12 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "ts" = (
@@ -2397,6 +2456,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
+"uo" = (
+/obj/machinery/computer/operating,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 "up" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -2473,6 +2536,11 @@
 /obj/structure/bed/roller,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
+"uI" = (
+/obj/structure/table,
+/obj/item/bonesetter,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 "uQ" = (
 /obj/structure/railing{
 	dir = 4
@@ -2526,19 +2594,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/indoors)
-"vm" = (
-/obj/structure/closet/anchored,
-/obj/machinery/light{
-	dir = 8;
-	pixel_y = -16
-	},
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/under/f13/police/officer,
-/obj/item/clothing/head/f13/police/officer,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/head/helmet,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/indoors)
 "vo" = (
 /obj/structure/chair/stool/f13stool{
 	dir = 8;
@@ -2559,15 +2614,13 @@
 /area/indoors)
 "vr" = (
 /obj/structure/closet/anchored,
-/obj/machinery/light{
-	dir = 4;
-	pixel_y = -16
-	},
 /obj/item/clothing/shoes/laceup,
 /obj/item/clothing/under/f13/police/officer,
 /obj/item/clothing/head/f13/police/officer,
 /obj/item/clothing/suit/armor/vest,
 /obj/item/clothing/head/helmet,
+/obj/item/storage/belt/holster/legholster/policepistol,
+/obj/item/storage/belt/security/police,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "vy" = (
@@ -2679,12 +2732,9 @@
 /area/indoors)
 "wM" = (
 /obj/structure/chair{
-	dir = 8
+	dir = 1
 	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "wU" = (
 /obj/structure/rack/steel,
@@ -2732,6 +2782,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"xG" = (
+/obj/machinery/photocopier,
+/obj/structure/fireaxecabinet{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/outdoors)
 "xK" = (
 /obj/structure/closet/crate/wooden,
 /obj/item/gun/ballistic/automatic/pistol/ninemil,
@@ -3319,6 +3377,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"BS" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/outdoors)
 "BW" = (
 /obj/item/radio/intercom{
 	frequency = 1287;
@@ -3332,17 +3398,9 @@
 /turf/open/floor/wood,
 /area/indoors)
 "Ca" = (
-/obj/structure/table/reinforced,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
+/obj/structure/chair,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/outdoors)
+/area/indoors)
 "Cd" = (
 /obj/structure/filingcabinet,
 /obj/structure/curtain{
@@ -3388,6 +3446,24 @@
 	dir = 8;
 	icon_state = "crossborder"
 	},
+/area/outdoors)
+"CB" = (
+/obj/structure/simple_door/bunker,
+/turf/open/floor/plasteel/f13/vault_floor/green/solid,
+/area/outdoors)
+"CG" = (
+/obj/structure/table,
+/obj/item/scalpel{
+	pixel_y = 14
+	},
+/obj/item/circular_saw,
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_open";
+	name = "blinds";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "CH" = (
 /turf/closed/wall,
@@ -3520,19 +3596,19 @@
 /area/indoors)
 "Dz" = (
 /obj/structure/table/reinforced,
-/obj/machinery/button{
+/obj/machinery/button/door{
 	id = "policestationlobby";
 	name = "Police Station Lobby";
 	pixel_x = 6;
 	pixel_y = 2
 	},
-/obj/machinery/button{
-	id = "policestationlockdown';
+/obj/machinery/button/door{
+	id = "policestationlockdown";
 	name = "Police Station Lockdown";
 	pixel_x = -6;
 	pixel_y = 2
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
 "DA" = (
 /obj/structure/table,
@@ -3577,11 +3653,11 @@
 /turf/open/floor/wood,
 /area/indoors)
 "DV" = (
-/obj/structure/table/reinforced,
-/obj/item/folder/white,
-/obj/machinery/door/window/brigdoor/eastleft,
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/outdoors)
+/area/indoors)
 "DW" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -3649,6 +3725,14 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood,
 /area/indoors)
+"ED" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/terminal{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/outdoors)
 "EH" = (
 /obj/machinery/light{
 	dir = 8
@@ -3714,10 +3798,7 @@
 /area/indoors)
 "Ff" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "Fi" = (
 /obj/machinery/computer/secure_data{
@@ -3752,12 +3833,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
 /area/indoors)
 "Fy" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/terminal,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = 28
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "Fz" = (
 /obj/structure/table/wood,
@@ -3814,6 +3893,12 @@
 /obj/item/clipboard,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/outdoors)
+"FR" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/outdoors)
 "FT" = (
 /obj/structure/fireaxecabinet{
 	pixel_y = 32
@@ -3847,10 +3932,22 @@
 /obj/item/folder/red,
 /turf/open/floor/wood/wood_tiled,
 /area/indoors)
+"Gh" = (
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = -33
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/outdoors)
 "Gi" = (
 /obj/structure/railing/corner,
 /turf/open/floor/wood,
 /area/indoors)
+"Gk" = (
+/obj/structure/simple_door/metal/fence,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft0"
+	},
+/area/outdoors)
 "Go" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/item/clothing/shoes/laceup,
@@ -3891,6 +3988,20 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"Gw" = (
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_open";
+	name = "blinds";
+	pixel_x = -32
+	},
+/obj/structure/table/reinforced,
+/obj/item/circular_saw,
+/obj/item/scalpel{
+	pixel_y = 14
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 "GD" = (
 /obj/structure/table,
 /obj/item/trash/f13/electronic/toaster{
@@ -3903,9 +4014,14 @@
 /turf/open/indestructible/ground/outside/savannah,
 /area/outdoors)
 "GQ" = (
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_open";
+	name = "blinds";
+	pixel_x = -32
+	},
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor/eastright,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "GR" = (
 /obj/structure/simple_door/metal/fence{
@@ -4080,6 +4196,22 @@
 /obj/item/hand_labeler,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"HV" = (
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_closed";
+	name = "blinds";
+	open = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/indoors)
+"Ia" = (
+/obj/structure/fence{
+	pixel_y = -1
+	},
+/turf/open/indestructible/ground/outside/savannah,
+/area/outdoors)
 "Ig" = (
 /obj/structure/curtain{
 	color = "#845f58";
@@ -4199,6 +4331,10 @@
 /obj/item/storage/briefcase,
 /turf/open/floor/wood,
 /area/indoors)
+"Jt" = (
+/obj/structure/simple_door/bunker,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/outdoors)
 "Ju" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
@@ -4515,6 +4651,26 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"LA" = (
+/obj/structure/closet/anchored,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/head/helmet,
+/obj/item/storage/belt/holster/legholster/policepistol,
+/obj/item/storage/belt/security/police,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/indoors)
+"LF" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/outdoors)
 "LG" = (
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -4577,6 +4733,12 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/indoors)
+"Mf" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/outdoors)
 "Mg" = (
 /obj/structure/window/fulltile/store,
 /obj/structure/barricade/bars,
@@ -4671,13 +4833,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/outdoors)
 "MU" = (
-/obj/structure/table,
 /obj/structure/curtain{
 	color = "#FFFFFF";
 	icon_state = "blinds_open";
 	name = "blinds";
-	pixel_y = -32
+	pixel_x = 32
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "MW" = (
@@ -4726,8 +4888,9 @@
 /turf/open/floor/wood,
 /area/indoors)
 "Nl" = (
-/obj/structure/table,
-/obj/item/bonesetter,
+/obj/machinery/computer/operating{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "Np" = (
@@ -4763,11 +4926,12 @@
 	},
 /area/outdoors)
 "NG" = (
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	dir = 4
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/obj/structure/closet/crate/freezer/blood/anchored,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "NH" = (
 /obj/structure/curtain{
@@ -4788,17 +4952,12 @@
 /obj/effect/turf_decal/stripes/white/end{
 	dir = 8
 	},
-/obj/item/paper/fluff/tranquilityville/annoucement_system,
 /obj/item/storage/secure/safe,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/indoors)
 "NP" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/terminal{
-	dir = 1
-	},
-/obj/structure/window/reinforced,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "NQ" = (
 /turf/open/floor/plasteel/f13/vault_floor/red/white/whiteredchess/whiteredchess2,
@@ -4852,14 +5011,15 @@
 /turf/open/transparent/openspace/outside,
 /area/indoors)
 "Ou" = (
-/obj/structure/table/reinforced,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/structure/decoration/clock/active{
+	pixel_y = 32
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/obj/structure/table,
+/obj/item/storage/fancy/donut_box,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/outdoors)
 "Oy" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -4903,11 +5063,14 @@
 /turf/open/floor/wood,
 /area/indoors)
 "Pb" = (
-/obj/machinery/photocopier,
-/obj/structure/fireaxecabinet{
-	pixel_y = -32
+/obj/structure/chair{
+	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/obj/machinery/light{
+	dir = 1;
+	pixel_x = -16
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "Ph" = (
 /obj/structure/table/reinforced,
@@ -4978,8 +5141,10 @@
 /area/indoors)
 "Qd" = (
 /obj/structure/table,
-/obj/item/stack/medical/bone_gel,
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/outdoors)
 "Qe" = (
 /obj/machinery/photocopier,
@@ -5001,6 +5166,17 @@
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom0"
 	},
+/area/outdoors)
+"Qn" = (
+/obj/structure/table,
+/obj/item/cautery,
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_open";
+	name = "blinds";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "Qp" = (
 /obj/machinery/microwave/stove,
@@ -5195,15 +5371,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/outdoors)
 "Sf" = (
-/obj/structure/table,
-/obj/item/cautery,
-/obj/structure/curtain{
-	color = "#FFFFFF";
-	icon_state = "blinds_open";
-	name = "blinds";
-	pixel_y = -32
+/obj/structure/table/reinforced,
+/obj/machinery/computer/terminal,
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/outdoors)
 "Sl" = (
 /obj/structure/table/wood,
@@ -5359,7 +5532,9 @@
 /turf/open/indestructible/ground/outside/savannah,
 /area/outdoors)
 "TF" = (
-/obj/structure/closet/secure_closet/medical2,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "TP" = (
@@ -5372,6 +5547,10 @@
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/indoors)
+"TY" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 "Uc" = (
 /obj/structure/curtain{
 	color = "#FFFFFF";
@@ -5394,11 +5573,9 @@
 	},
 /area/outdoors)
 "Un" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/machinery/iv_drip,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "Uo" = (
@@ -5428,11 +5605,13 @@
 /turf/open/floor/wood,
 /area/indoors)
 "UM" = (
-/obj/machinery/computer/operating,
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/obj/structure/table/reinforced,
+/obj/item/folder/white,
+/obj/machinery/door/window/brigdoor/eastleft,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/outdoors)
 "UO" = (
-/obj/structure/closet/crate/freezer/surplus_limbs,
+/obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "UZ" = (
@@ -5450,6 +5629,10 @@
 	},
 /turf/open/floor/wood/wood_diagonal,
 /area/indoors)
+"Vp" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/outdoors)
 "Vr" = (
 /turf/open/indestructible/ground/outside/road/crossing/alttwo,
 /area/outdoors)
@@ -5472,12 +5655,29 @@
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
 "VN" = (
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/outdoors)
+/obj/structure/closet/anchored,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/head/helmet,
+/obj/item/storage/belt/holster/legholster/policepistol,
+/obj/item/storage/belt/security/police,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/indoors)
 "VO" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/outdoors)
+"VQ" = (
+/obj/structure/table,
+/obj/item/lock_construct,
+/obj/item/key,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/indoors)
 "VS" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -5784,8 +5984,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/outdoors)
 "Ze" = (
-/obj/structure/table,
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/outdoors)
 "Zg" = (
 /obj/structure/bed{
@@ -5876,6 +6081,17 @@
 	},
 /turf/open/floor/wood,
 /area/indoors)
+"ZS" = (
+/obj/structure/curtain{
+	color = "#FFFFFF";
+	icon_state = "blinds_open";
+	name = "blinds";
+	pixel_x = 32
+	},
+/obj/structure/table/reinforced,
+/obj/item/bonesetter,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/outdoors)
 
 (1,1,1) = {"
 Yt
@@ -25734,8 +25950,8 @@ aN
 aN
 aN
 Qu
-HF
-HF
+Qu
+Qu
 Qu
 Pm
 Pm
@@ -26139,10 +26355,10 @@ aN
 aN
 Qu
 yw
-HF
-bI
-Pm
-Pm
+bD
+cl
+cp
+cp
 cC
 nc
 HF
@@ -26340,8 +26556,8 @@ aN
 aN
 aN
 Qu
-HF
-ce
+aw
+aA
 Qu
 Pm
 Pm
@@ -26542,8 +26758,8 @@ aN
 aN
 aN
 Qu
-HF
-HF
+Qu
+Qu
 Qu
 Pm
 Pm
@@ -26744,8 +26960,8 @@ aN
 aN
 aN
 Qu
-aA
-bd
+HF
+HF
 Qu
 Pm
 Pm
@@ -28766,7 +28982,7 @@ aN
 aN
 Qu
 hZ
-HF
+jR
 HF
 HF
 HF
@@ -28967,7 +29183,7 @@ aN
 aN
 aN
 Qu
-HF
+iI
 HF
 HF
 HF
@@ -30179,7 +30395,7 @@ aN
 aN
 aN
 Qu
-HF
+ib
 HF
 HF
 HF
@@ -30382,7 +30598,7 @@ aN
 aN
 Qu
 ib
-iI
+aV
 HF
 HF
 HF
@@ -46684,16 +46900,16 @@ hq
 "}
 (2,1,2) = {"
 hq
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
+mt
+mt
+mt
+mt
+mt
+mt
+mt
+mt
+mt
+mt
 TP
 TP
 TP
@@ -46886,46 +47102,46 @@ hq
 "}
 (3,1,2) = {"
 hq
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
-TP
+mt
+bd
+bd
+bd
+bd
+mt
+bd
+bd
+bd
+mt
+PW
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Sm
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+ho
+Wr
+Wr
+Wr
+PW
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
 TP
 TP
 TP
@@ -47088,11 +47304,17 @@ hq
 "}
 (4,1,2) = {"
 hq
-TP
-TP
-TP
-Wg
 mt
+mt
+mt
+mt
+mt
+mt
+bd
+bd
+bd
+mt
+Ld
 Wg
 Wg
 Wg
@@ -47100,24 +47322,18 @@ Wg
 Wg
 Wg
 Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+NT
+sS
+SR
+SR
+SR
+SR
+SR
 NY
 SR
 SR
-SR
-SR
-SR
 nj
-Wg
+Ld
 Wg
 Wg
 Wg
@@ -47290,54 +47506,54 @@ hq
 "}
 (5,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+mt
+bd
+bd
+FR
+bd
+Jt
+bd
+bd
+bd
+CB
+mh
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Ug
+Ld
+Qh
+lZ
+lZ
 lZ
 lZ
 ak
 lZ
-lZ
-lZ
-lZ
-lZ
+RF
 NT
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-NT
+mh
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Ug
 Ld
 Qh
 QD
@@ -47492,36 +47708,36 @@ hq
 "}
 (6,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-SX
-SX
-ao
-Wj
-Wj
-Wj
-SX
-SX
-Ni
+mt
+bd
+bd
+bd
+bd
+bd
+Mf
+bd
+bd
+mt
 SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+Uk
+Hw
+Qh
+QD
+Wj
+Wj
+Wj
+ao
+QD
+RF
+Ni
+Uk
 SR
 SR
 SR
@@ -47694,26 +47910,26 @@ hq
 "}
 (7,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+mt
+bI
+bI
+bI
+bI
+de
+bd
+bd
+bd
+de
+lZ
+lZ
+lZ
+lZ
+lZ
+lZ
+lZ
+lZ
+Uo
+lZ
 QD
 RF
 NY
@@ -47723,7 +47939,7 @@ NY
 Qh
 QD
 lZ
-lZ
+Uo
 lZ
 lZ
 lZ
@@ -47896,36 +48112,36 @@ hq
 "}
 (8,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+mt
+bI
+bI
+bI
+bI
+de
+bd
+bd
+bd
+de
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+Uz
+SX
 QD
 RF
-aw
-Ta
-aV
+cj
+LF
+RX
 cj
 Qh
 QD
 SX
-SX
+Uz
 SX
 SX
 SX
@@ -48098,36 +48314,36 @@ hq
 "}
 (9,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+mt
+bI
+bI
+bI
+bI
+de
+bd
+bd
+bd
+de
+Wj
+Wj
+Wj
+Wj
+Wj
+Wj
+Wj
+Wj
+Vr
+Wj
 QD
 RF
 NY
-aI
+aQ
 bz
 NY
 Qh
 QD
 Wj
-Wj
+Vr
 Wj
 Wj
 Wj
@@ -48300,36 +48516,36 @@ hq
 "}
 (10,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-SX
-SX
+mt
+bd
+bd
+bd
+bd
+bd
+Mf
+bd
+bd
+mt
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Wr
+Cv
+PW
+Qh
+QD
 ak
 lZ
 lZ
 lZ
-SX
-SX
+QD
+RF
 Sm
-Wr
+Cv
 Wr
 Wr
 Wr
@@ -48502,54 +48718,54 @@ hq
 "}
 (11,1,2) = {"
 hq
-TP
-TP
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wj
+mt
+bd
+bd
+eX
+bd
+Jt
+bd
+bd
+bd
+CB
+sS
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+nj
+Ld
+Qh
 Wj
 ao
 Wj
 Wj
 Wj
 Wj
-Wj
+RF
 NT
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-NT
+sS
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+SR
+nj
 Ld
 Qh
 QD
@@ -48704,8 +48920,17 @@ hq
 "}
 (12,1,2) = {"
 hq
-TP
-TP
+mt
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+mt
+Ld
 Wg
 Wg
 Wg
@@ -48713,19 +48938,10 @@ Wg
 Wg
 Wg
 Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+NT
+mh
+Wr
+Wr
 NY
 Wr
 Wr
@@ -48733,7 +48949,7 @@ Wr
 Wr
 Wr
 Ug
-Wg
+Ld
 Wg
 Wg
 Wg
@@ -48906,8 +49122,17 @@ hq
 "}
 (13,1,2) = {"
 hq
-TP
-TP
+mt
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+mt
+Hw
 Wg
 Wg
 Wg
@@ -48915,27 +49140,18 @@ Wg
 Wg
 Wg
 Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-bq
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+Ni
+SR
+SR
+SR
+Gk
+SR
+SR
+SR
+SR
+SR
+SR
+Hw
 Wg
 Wg
 Wg
@@ -48976,11 +49192,11 @@ hL
 hL
 pS
 po
-ta
-ta
-vm
-ta
-ta
+vr
+vr
+vr
+VN
+vr
 HF
 xj
 po
@@ -49108,8 +49324,16 @@ hq
 "}
 (14,1,2) = {"
 hq
-TP
-TP
+mt
+mt
+mt
+mt
+mt
+mt
+mt
+mt
+mt
+mt
 Wg
 Wg
 Wg
@@ -49122,15 +49346,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-bq
+NY
 Wg
 Wg
 Wg
@@ -49784,11 +50000,11 @@ ir
 oB
 ir
 po
-ta
-ta
 vr
-ta
-ta
+vr
+vr
+LA
+vr
 HF
 xj
 po
@@ -49938,7 +50154,7 @@ Wg
 Wg
 Wg
 Wg
-NY
+bq
 Wg
 Wg
 Wg
@@ -50140,7 +50356,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+bq
 Wg
 Wg
 Wg
@@ -50187,7 +50403,7 @@ gb
 cm
 HF
 HF
-qK
+lX
 HF
 HF
 HF
@@ -50204,7 +50420,7 @@ HF
 HF
 HF
 HF
-qK
+lX
 HF
 HF
 HF
@@ -50247,7 +50463,7 @@ zB
 CZ
 Ta
 zB
-NG
+CZ
 Ta
 Ta
 Xv
@@ -50342,7 +50558,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+NY
 Wg
 Wg
 Wg
@@ -50406,7 +50622,7 @@ HF
 HF
 HF
 HF
-aL
+qL
 HF
 HF
 HF
@@ -50544,7 +50760,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+bq
 Wg
 Wg
 Wg
@@ -50746,7 +50962,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+bq
 Wg
 Wg
 Wg
@@ -50948,7 +51164,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+bq
 Wg
 Wg
 Wg
@@ -51150,7 +51366,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+bq
 Wg
 Wg
 Wg
@@ -51352,7 +51568,7 @@ Wg
 Wg
 Wg
 Wg
-Wg
+bq
 Wg
 Wg
 Wg
@@ -51536,25 +51752,25 @@ TP
 TP
 Wg
 Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+NY
+Ia
+Ia
+Ia
+Ia
+Ia
+NY
+Ia
+Ia
+Ia
+Ia
+Ia
+NY
+Ia
+Ia
+Ia
+Ia
+Ia
+NY
 Wg
 Wg
 Wg
@@ -52017,7 +52233,7 @@ po
 HF
 HF
 HF
-HF
+wu
 da
 HF
 xA
@@ -52413,11 +52629,11 @@ ra
 th
 uB
 HF
-HF
-nc
+po
 xA
 HF
-po
+nc
+HF
 HF
 HF
 HF
@@ -52615,13 +52831,13 @@ HF
 HF
 HF
 HF
+iv
+HF
 HF
 po
 HF
-HF
-po
-HF
-HF
+wM
+Ca
 HF
 rO
 po
@@ -52817,13 +53033,13 @@ rr
 to
 HF
 HF
+oN
+HF
 vI
 wl
 HF
-HF
-nc
-HF
-HF
+wM
+Ca
 HF
 Ax
 po
@@ -53019,13 +53235,13 @@ HF
 HF
 HF
 HF
+iv
+HF
 HF
 wm
 HF
-HF
-po
-HF
-HF
+wM
+Ca
 HF
 AA
 po
@@ -53220,12 +53436,12 @@ qr
 rA
 tp
 uT
-vy
+HF
+po
+sM
 vN
 po
-wM
-xS
-po
+HF
 HF
 HF
 HF
@@ -53490,11 +53706,11 @@ NU
 NU
 NU
 NU
-vC
-Un
-Qd
-Nl
-Ze
+NU
+NU
+NU
+NU
+NU
 NU
 Wg
 Wg
@@ -53635,7 +53851,7 @@ HF
 HF
 wu
 po
-wu
+DV
 aL
 Hp
 po
@@ -53689,14 +53905,14 @@ NU
 NU
 NU
 NU
+NY
 NU
 NU
 NU
-gy
-gy
-gy
-gy
-Sf
+NU
+NY
+NU
+NU
 NU
 Wg
 Wg
@@ -53881,24 +54097,24 @@ NU
 NU
 NU
 NU
+vC
+BS
+dV
+uI
+TY
 NU
 NU
 NU
 NU
 NU
+NY
 NU
 NU
 NU
 NU
+NY
 NU
 NU
-NU
-NU
-gy
-UM
-VO
-gy
-lX
 NU
 Wg
 Wg
@@ -54083,24 +54299,24 @@ NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 gy
 gy
 gy
 gy
-MU
+Qn
+NU
+NU
+NU
+NU
+NU
+NY
+NU
+NU
+NU
+NU
+NY
+NU
+NU
 NU
 Wg
 Wg
@@ -54285,24 +54501,24 @@ NU
 NU
 NU
 NU
+gy
+uo
+VO
+gy
+CG
+NU
+NU
+gy
+gy
+gy
+NY
 NU
 NU
 NU
 NU
+NY
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-TF
-UO
-Ze
-Ze
-Ze
 NU
 Wg
 Wg
@@ -54487,22 +54703,22 @@ NU
 NU
 NU
 NU
+gy
+gy
+gy
+gy
+lk
+NU
+NU
+gy
+gy
+gy
+NY
 NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+NY
 NU
 NU
 NU
@@ -54631,7 +54847,7 @@ po
 mu
 pJ
 Zn
-HF
+LZ
 ts
 vb
 vB
@@ -54689,22 +54905,22 @@ NU
 NU
 NU
 NU
+UO
+NP
+TY
+TY
+TY
+NU
+NU
+gy
+gy
+gy
+NY
 NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+NY
 NU
 NU
 NU
@@ -54898,15 +55114,15 @@ NU
 NU
 NU
 NU
+gy
+gy
+gy
+NY
 NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
+NY
 NU
 NU
 NU
@@ -55033,15 +55249,15 @@ NT
 HJ
 po
 mI
-mI
-mI
-po
-mI
-mI
+VQ
 mI
 po
 mI
+VQ
 mI
+po
+mI
+VQ
 mI
 po
 yJ
@@ -55100,19 +55316,19 @@ gy
 gy
 gy
 gy
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+NY
+Tn
+Tn
+NY
+NY
+NY
+Tn
+NY
+NY
 Wg
 Wg
 Wg
@@ -55234,10 +55450,10 @@ QD
 NT
 HJ
 hc
-mT
+HV
 HF
 HF
-sM
+qK
 HF
 HF
 HF
@@ -55255,7 +55471,7 @@ HF
 HF
 HF
 HF
-xA
+qK
 HF
 HF
 HF
@@ -55289,19 +55505,6 @@ NU
 NU
 NU
 NU
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
 NU
 NU
 NU
@@ -55314,7 +55517,20 @@ NU
 NU
 NU
 NU
-Wg
+NU
+NU
+NU
+NU
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -55436,7 +55652,7 @@ QD
 NT
 HJ
 hK
-mT
+HV
 HF
 HF
 sW
@@ -55490,33 +55706,33 @@ NU
 NU
 NU
 NU
-NU
 NY
 NY
-qE
 NY
 NY
-Ha
-Ha
-Ha
 NY
 NY
-qE
 NY
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+NY
+NY
+NY
+NY
+NY
+NY
+NY
+NY
+NY
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -55686,39 +55902,39 @@ NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
 NY
-xw
-Ta
-Ta
-El
-Ri
-Ri
-FQ
-Ta
-Ta
-Ta
-dW
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+NY
+NY
+NY
+NY
+NY
+NY
+NY
+NY
+NY
 Wg
 Wg
 Wg
@@ -55888,39 +56104,39 @@ NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
 NY
-xT
-Ta
-Ta
-Qf
-VF
-Ta
-El
-VF
-Ta
-Ta
-dW
-NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
 Wg
 Wg
 Wg
@@ -56084,45 +56300,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NY
-ye
-Ta
-Ta
-zB
-CZ
-Ta
-zB
-NG
-Ta
-Ta
-Pb
 NY
 NU
 NU
 NU
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+NY
+NY
+qE
+NY
+NY
+Ha
+Ha
+Ha
+NY
+NY
+qE
+NY
+NY
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -56286,45 +56502,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
-El
+NY
+Su
+Su
+NY
+NY
+gy
+gy
+NY
+NY
+NY
+Tn
+Tn
+NY
+xw
 Ta
 Ta
-Ta
-Ta
-Ta
-Ta
-Ta
+Qd
+Ri
+Ri
+FQ
+lp
 Ta
 Ta
 dW
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+Tn
+Tn
+NY
+NY
+NY
+gy
+gy
+NY
+NY
+Su
+Su
+NY
+NY
 Wg
 Wg
 Wg
@@ -56488,45 +56704,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
-tl
+Ff
+GQ
+GQ
+NG
+NY
+gy
+gy
+NY
+gy
+NY
+Tn
+Tn
+NY
+xT
 Ta
 Ta
+Qf
+VF
 Ta
-Ta
-Ta
-Ta
-Ta
+El
+VF
 Ta
 Ta
 dW
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+Tn
+Tn
+NY
+gy
+NY
+gy
+gy
+NY
+NG
+GQ
+Gw
+Ff
+NY
 Wg
 Wg
 Wg
@@ -56690,45 +56906,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
+gy
+vp
+gy
+gy
+Tn
+gy
+gy
+Tn
+gy
 NY
-qE
+Tn
+Tn
 NY
-NY
+Ou
 Ta
 Ta
+zB
+CZ
 Ta
+zB
+CZ
+Ta
+Ta
+xG
 NY
+Tn
+Tn
 NY
-qE
+gy
+Tn
+gy
+gy
+Tn
+gy
+gy
+vp
+gy
 NY
-NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
 Wg
 Wg
 Wg
@@ -56892,45 +57108,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
-gy
-gy
-gy
 Fy
-RX
-Ta
-RX
-NP
+VO
+Nl
+gy
+Tn
 gy
 gy
+Tn
 gy
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+Tn
+Tn
+NY
+El
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+dW
+NY
+Tn
+Tn
+NY
+gy
+Tn
+gy
+gy
+Tn
+gy
+uo
+VO
+Gh
+NY
 Wg
 Wg
 Wg
@@ -57094,45 +57310,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-rQ
+NY
 gy
 gy
 gy
-Ca
-DV
-Ff
-GQ
-Ou
+gy
+Tn
+gy
+gy
+Tn
+gy
+NY
+Tn
+Tn
+NY
+tl
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+Ta
+dW
+NY
+Tn
+Tn
+NY
+gy
+Tn
+gy
+gy
+Tn
 gy
 gy
 gy
-rQ
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+NY
 Wg
 Wg
 Wg
@@ -57296,45 +57512,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-rQ
+NY
+Ff
+MU
+MU
+NP
+NY
 gy
 gy
+NY
+gy
+NY
+Tn
+Tn
+NY
+NY
+qE
+NY
+NY
+LF
+Ta
+Vp
+NY
+NY
+qE
+NY
+NY
+Tn
+Tn
+NY
+gy
+NY
 gy
 gy
-gy
-gy
-gy
-gy
-gy
-gy
-gy
-rQ
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+NY
+NP
+ZS
+MU
+Ff
+NY
 Wg
 Wg
 Wg
@@ -57498,45 +57714,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+NY
+NY
+Su
+Su
+NY
+NY
+gy
+gy
+NY
+NY
+NY
+Tn
+Tn
 NY
 gy
 gy
 gy
-gy
-gy
-gy
-gy
-gy
+Sf
+RX
+Ta
+RX
+ED
 gy
 gy
 gy
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+Tn
+Tn
+NY
+NY
+NY
+gy
+gy
+NY
+NY
+Su
+Su
+NY
+NY
 Wg
 Wg
 Wg
@@ -57700,45 +57916,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
-Tg
-Tg
-Tg
 gy
-Tg
-Tg
-Tg
 gy
-Tg
-Tg
-Tg
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+rQ
+gy
+gy
+gy
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+UM
+Ze
+no
+NY
+gy
+gy
+gy
+rQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -57902,45 +58118,45 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
-uG
-uG
-uG
 gy
-uG
-uG
-uG
 gy
-uG
-uG
-uG
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+rQ
+gy
+gy
+gy
+TF
+gy
+gy
+gy
+TF
+gy
+gy
+gy
+rQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
 Wg
 Wg
 Wg
@@ -58104,19 +58320,19 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+NY
+NY
+Tn
+NY
+NY
+NY
+Tn
+Tn
+NY
+NY
+NY
+Tn
+NY
 NY
 gy
 gy
@@ -58130,19 +58346,19 @@ gy
 gy
 gy
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+NY
+Tn
+NY
+NY
+NY
+Tn
+Tn
+NY
+NY
+NY
+Tn
+NY
+NY
 Wg
 Wg
 Wg
@@ -58306,19 +58522,19 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+NY
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
 NY
 Tg
 Tg
@@ -58332,19 +58548,19 @@ Tg
 Tg
 Tg
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -58508,21 +58724,21 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
 NY
-uG
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
+Pb
 uG
 uG
 gy
@@ -58532,21 +58748,21 @@ uG
 gy
 uG
 uG
-uG
+ni
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -58710,19 +58926,19 @@ HJ
 Wg
 NU
 NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
+NY
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
 NY
 gy
 gy
@@ -58736,19 +58952,19 @@ gy
 gy
 gy
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -58912,45 +59128,45 @@ HJ
 Wg
 Wg
 Wg
-Wg
-Wg
-NU
 NY
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
 NY
 Tg
 Tg
 Tg
+Un
 gy
 gy
 gy
-gy
-gy
+Un
 Tg
 Tg
 Tg
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -59114,19 +59330,19 @@ HJ
 Wg
 Wg
 Wg
-Wg
-Wg
-NU
 NY
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
 NY
 NY
 Su
@@ -59140,19 +59356,19 @@ Su
 Su
 NY
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -59316,19 +59532,19 @@ HJ
 Wg
 Wg
 Wg
-Wg
-Wg
-NU
 NY
-Wg
-Wg
-Wg
-Wg
+gy
+gy
+gy
 NY
-Wg
-Wg
-Wg
-Wg
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
 NY
 OU
 OU
@@ -59342,19 +59558,19 @@ OU
 OU
 OU
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+gy
+NY
+gy
+gy
+gy
+NY
 Wg
 Wg
 Wg
@@ -59518,18 +59734,18 @@ HJ
 Wg
 Wg
 Wg
-Wg
-Wg
-NU
 NY
 NY
-Wg
-Wg
+Su
+Su
 NY
 NY
+Su
+Su
 NY
-Wg
-Wg
+NY
+Su
+Su
 NY
 NY
 OU
@@ -59544,19 +59760,19 @@ OU
 OU
 OU
 NY
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-NU
-Wg
+NY
+Su
+Su
+NY
+NY
+Su
+Su
+NY
+NY
+Su
+Su
+NY
+NY
 Wg
 Wg
 Wg
@@ -66356,7 +66572,7 @@ Qu
 HF
 HF
 Nd
-VN
+rl
 Ld
 Wg
 Wg
@@ -66558,7 +66774,7 @@ DI
 HF
 HF
 Nd
-OU
+HJ
 mh
 Wr
 Wr
@@ -66760,7 +66976,7 @@ Qu
 SC
 HF
 po
-OU
+HJ
 OU
 OU
 OU
@@ -66962,7 +67178,7 @@ DI
 HF
 HF
 Nd
-OU
+HJ
 sS
 SR
 SR
@@ -67164,7 +67380,7 @@ Qu
 HF
 HF
 Nd
-VN
+tC
 Ld
 Wg
 Wg
@@ -68557,7 +68773,7 @@ HJ
 bq
 Wg
 Wg
-hT
+CJ
 is
 HF
 HF
@@ -89361,13 +89577,13 @@ kc
 kc
 kc
 kc
-kc
 jH
 kc
 kc
 kc
 kc
 jH
+kc
 kc
 kc
 jH
@@ -93875,13 +94091,13 @@ NY
 NY
 Zo
 Zo
+NY
 Zo
 Zo
 Zo
 Zo
 Zo
-Zo
-Zo
+NY
 Zo
 Zo
 NY
@@ -94077,13 +94293,13 @@ NU
 NY
 Zo
 Zo
-Zo
+NY
 Zo
 Zo
 Nx
 Zo
 Zo
-Zo
+NY
 Zo
 Zo
 NY
@@ -94279,13 +94495,13 @@ NU
 NY
 Zo
 Zo
-Zo
+NY
 Zo
 KV
 Vv
 Ay
 Zo
-Zo
+NY
 Zo
 Zo
 NY
@@ -94479,17 +94695,17 @@ NY
 NY
 NY
 NY
-Zo
-Zo
-Zo
+NY
+NY
+NY
 Zo
 Gr
 Gr
 Zo
 Zo
-Zo
-Zo
-Zo
+NY
+NY
+NY
 NY
 NY
 NY
@@ -94683,10 +94899,7 @@ NY
 NY
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
+NY
 Zo
 Zo
 Zo
@@ -94695,6 +94908,9 @@ Zo
 NY
 gy
 gy
+NY
+Zo
+Zo
 NY
 gy
 gy
@@ -94885,10 +95101,7 @@ NU
 NY
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
+hT
 Zo
 Zo
 Zo
@@ -94897,6 +95110,9 @@ Zo
 vc
 gy
 gy
+NY
+Zo
+Zo
 NY
 gy
 gy
@@ -95087,10 +95303,7 @@ NU
 NY
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
+NY
 Zo
 Zo
 Zo
@@ -95099,6 +95312,9 @@ Zo
 NY
 gy
 gy
+NY
+Zo
+Zo
 NY
 gy
 gy
