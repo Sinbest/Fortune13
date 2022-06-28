@@ -512,8 +512,8 @@
 
 //Service rifle			Keywords: NCR, 5.56mm, Semi-auto, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/service
-	name = "service rifle"
-	desc = "A 5.56x45 semi-automatic service rifle manufactured by the NCR and issued to all combat personnel."
+	name = "AR-15"
+	desc = "A 5.56x45mm semi-automatic service rifle manufactured by the NCR and issued to all combat personnel."
 	icon_state = "service_rifle"
 	item_state = "servicerifle"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
@@ -565,7 +565,7 @@
 	suppressor_y_offset = 28
 
 
-//Police rifle			Keywords: POLICE, 5.56mm, Semi-auto, 30 (10-50) round magazine
+//Police rifle			Keywords: POLICE, 5.56mm, Semi-auto, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/service/police
 	name = "police rifle"
 	desc = "A 5.56x45mm rifle built off the AR platform, while originally rather bland, guns with petroleum-based plastic like this have become quite valuable since the oil ran out."
@@ -573,8 +573,8 @@
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "m16a1"
-	item_state = "assault_carbine"
-	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/extended
+	item_state = "m16a1"
+	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 4.5
 	burst_size = 1
 	spread = 1
@@ -591,7 +591,7 @@
 //Marksman carbine			Keywords: 5.56mm, Semi-auto, 20 (10-50) round magazine, Small scope
 /obj/item/gun/ballistic/automatic/marksman
 	name = "marksman carbine"
-	desc = "A marksman carbine built off the AR platform chambered in 5.56x45. Seen heavy usage in pre-war conflicts. This particular model is a civilian version and is semi-auto only."
+	desc = "A marksman carbine built off the AR platform chambered in 5.56x45. Seen heavy usage in pre-Sino-American war conflicts. This particular model is a civilian version and is semi-auto only."
 	icon_state = "marksman_rifle"
 	item_state = "marksman"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
@@ -946,10 +946,73 @@
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/bozar_fire.ogg'
 
+//M16A1				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, Flashlight
+/obj/item/gun/ballistic/automatic/assault_rifle/m16a1
+	name = "M16A1"
+	desc = "A 5.56x45mm rifle built off the AR platform, features a iconic 'duckbill' handguard, a closed 'birdcage' flash hider, and a holding handle/sight."
+	icon_state = "m16a1"
+	item_state = "m16a1"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	fire_delay = 3.5
+	burst_shot_delay = 2.5
+	spread = 9
+	recoil = 0.1
+	can_attachments = TRUE
+	can_bayonet = TRUE
+	bayonet_state = "bayonet"
+	knife_x_offset = 22
+	knife_y_offset = 21
+	can_scope = TRUE
+	scope_state = "scope_short"
+	scope_x_offset = 4
+	scope_y_offset = 15
+	can_suppress = TRUE
+	suppressor_state = "rifle_suppressor"
+	suppressor_x_offset = 26
+	suppressor_y_offset = 28
+	can_flashlight = TRUE
+	gunlight_state = "flightangle"
+	flight_x_offset = 21
+	flight_y_offset = 21
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+	fire_sound = 'sound/f13weapons/assault_carbine.ogg'
+
+//M16A2				Keywords: 5.56mm, Automatic, 30 (10-50) round magazine, Flashlight
+/obj/item/gun/ballistic/automatic/assault_rifle/m16a2
+	name = "M16A2"
+	desc = "A 5.56x45mm rifle built off the AR platform, features a iconic 'duckbill' handguard, a closed 'birdcage' flash hider, and a holding handle/sight."
+	icon_state = "m16a2"
+	item_state = "assault_carbine"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556/rifle/assault
+	fire_delay = 3.5
+	burst_shot_delay = 2.5
+	spread = 9
+	recoil = 0.1
+	can_attachments = TRUE
+	can_bayonet = TRUE
+	bayonet_state = "bayonet"
+	knife_x_offset = 22
+	knife_y_offset = 21
+	can_scope = TRUE
+	scope_state = "scope_short"
+	scope_x_offset = 4
+	scope_y_offset = 15
+	can_suppress = TRUE
+	suppressor_state = "rifle_suppressor"
+	suppressor_x_offset = 26
+	suppressor_y_offset = 28
+	can_flashlight = TRUE
+	gunlight_state = "flightangle"
+	flight_x_offset = 21
+	flight_y_offset = 21
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+	fire_sound = 'sound/f13weapons/assault_carbine.ogg'
 
 //Assault Carbine				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, Flashlight
 /obj/item/gun/ballistic/automatic/assault_carbine
-	name = "assault carbine"
+	name = "Colt Commando"
 	desc = "A 5.56x45mm rifle built off the AR platform, features a shorter stock and barrel, telescoping stock, and a general air of special forces coolness."
 	icon_state = "assault_carbine"
 	item_state = "assault_carbine"

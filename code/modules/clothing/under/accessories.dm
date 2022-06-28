@@ -686,6 +686,72 @@
 
 //Military
 
+/obj/item/clothing/accessory/army/PVT
+	name = "(E-2) Private rank insigina"
+	desc = "A Private should wear this."
+	icon_state = "army_private"
+	item_color = "army_private"
+
+/obj/item/clothing/accessory/army/PFC
+	name = "(E-3) Private First Class rank insigina"
+	desc = "A Private First Class should wear this."
+	icon_state = "army_private_first_class"
+	item_color = "army_private_first_class"
+
+/obj/item/clothing/accessory/army/SPC
+	name = "(E-4) Specialist rank insigina"
+	desc = "A Specalist should wear this."
+	icon_state = "army_specialist"
+	item_color = "army_specialist"
+
+/obj/item/clothing/accessory/army/CPL
+	name = "(E-4) Corporal rank insigina"
+	desc = "A Corporal should wear this."
+	icon_state = "army_corporal"
+	item_color = "army_corporal"
+
+/obj/item/clothing/accessory/army/SGT
+	name = "(E-5) Sergeant rank insigina"
+	desc = "A Sergeant should wear this."
+	icon_state = "army_sergeant"
+	item_color = "army_sergeant"
+
+/obj/item/clothing/accessory/army/SSGT
+	name = "(E-6) Staff Sergeant rank insigina"
+	desc = "A Staff Sergeant should wear this."
+	icon_state = "army_staff_sergeant"
+	item_color = "army_staff_sergeant"
+
+/obj/item/clothing/accessory/army/SFC
+	name = "(E-7) Sergeant First Class rank insigina"
+	desc = "A Sergeant First Class should wear this."
+	icon_state = "army_sergeant_first_class"
+	item_color = "army_sergeant_first_class"
+
+/obj/item/clothing/accessory/army/MSG
+	name = "(E-8) Master Sergeant rank insigina"
+	desc = "A Master Sergeant should wear this."
+	icon_state = "army_master_sergeant"
+	item_color = "army_master_sergeant"
+
+/obj/item/clothing/accessory/army/1SG
+	name = "(E-8) First Sergeant rank insigina"
+	desc = "A First Sergeant should wear this."
+	icon_state = "army_first_sergeant"
+	item_color = "army_first_sergeant"
+
+/obj/item/clothing/accessory/army/SGM
+	name = "(E-9) Sergeant Major rank insigina"
+	desc = "A Sergeant Major should wear this."
+	icon_state = "army_sergeant_major"
+	item_color = "army_sergeant_major"
+
+/obj/item/clothing/accessory/army/CSM
+	name = "(E-9) Command Sergeant Major rank insigina"
+	desc = "A Sergeant Major should wear this."
+	icon_state = "army_sergeant_major"
+	item_color = "army_sergeant_major"
+
 /obj/item/clothing/accessory/armband/military_police
 	name = "military police brassard"
 	desc = "An armlet, worn by military police officers."
