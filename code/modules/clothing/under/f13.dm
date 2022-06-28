@@ -71,6 +71,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
 	icon_state = "police_formal"
 	item_state = "police_formal"
+	can_adjust = TRUE
 
 //Army
 
@@ -89,6 +90,24 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
 	icon_state = "army_officer"
 	item_state = "army_officer"
+
+/obj/item/clothing/under/f13/army/service
+	name = "US Army service uniform"
+	desc = "A service uniform."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon_state = "army_service"
+	item_state = "army_service"
+	can_adjust = TRUE
+
+/obj/item/clothing/under/f13/army/service/skirt
+	name = "US Army service uniform"
+	desc = "A service uniform."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon_state = "army_service_skirt"
+	item_state = "army_service_skirt"
+	can_adjust = TRUE
 
 /*
 

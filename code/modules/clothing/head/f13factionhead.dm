@@ -133,6 +133,44 @@ obj/item/clothing/head/helmet/f13/army/crewman
 	icon_state = "army_crewman"
 	item_state = "army_crewman"
 
+//Army Service
+
+obj/item/clothing/head/f13/army/service
+	name = "US Army service cap"
+	desc = "A peaked cap worn as part of a service uniform. Worn by enlisted."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_service"
+	item_state = "army_service"
+	dynamic_hair_suffix = "+generic"
+
+obj/item/clothing/head/f13/army/service/officer
+	name = "US Army officer's service cap"
+	desc = "A peaked cap worn as part of a service uniform. Worn by officers."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_service_officer"
+	item_state = "army_service"
+	dynamic_hair_suffix = "+generic"
+
+obj/item/clothing/head/f13/army/service/general
+	name = "US Army general's service cap"
+	desc = "A peaked cap worn as part of a service uniform. Worn by generals."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_service_general"
+	item_state = "army_service"
+	dynamic_hair_suffix = "+generic"
+
+obj/item/clothing/head/f13/army/service/side
+	name = "US Army side cap"
+	desc = "A peaked cap worn as part of a service uniform. Worn by generals."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_side"
+	item_state = "army_side"
+	dynamic_hair_suffix = "+generic"
+
 /*
 
 /obj/item/clothing/head/armycap/nationalguard

@@ -27,6 +27,16 @@
 	icon_state = "police_chief"
 	item_state = "police_chief"
 
+//Army
+
+/obj/item/clothing/suit/f13/army/service
+	name = "US Army service jacket"
+	desc = "A jacket to be worn with service uniforms."
+	icon = 'icons/fallout/clothing/suits_cosmetic.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_cosmetic.dmi'
+	icon_state = "army_service"
+	item_state = "army_service"
+
 //Raider
 /obj/item/clothing/suit/armor/f13/raider
 	name = "base raider armor"
